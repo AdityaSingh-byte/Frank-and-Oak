@@ -32,63 +32,41 @@ window.onload = startAutoSlide;
 let dropDown = document.getElementsByClassName("dropDown")[0];
 let women = document.getElementById("women");
 let men = document.getElementById("men");
-let closeTimeout;
-
-function openMenu() {
-    dropDown.classList.add("open-menu");
-}
-
-function closeMenu() {
-    clearTimeout(closeTimeout);
-    closeTimeout = setTimeout(function () {
-        dropDown.classList.remove("open-menu");
-    }, 200);
-}
-
-women.addEventListener("mouseover", openMenu);
-women.addEventListener("mouseleave", closeMenu);
-
-men.addEventListener("mouseover", openMenu);
-men.addEventListener("mouseleave", closeMenu);
-
 let sales = document.getElementById("sales");
 let salesDropDown = document.getElementsByClassName("salesDropDown")[0];
-
-let closeTime;
-
-function openMenus() {
-    salesDropDown.classList.add("open-menus");
-}
-
-function closeMenus() {
-    clearTimeout(closeTime);
-    closeTime = setTimeout(function () {
-        salesDropDown.classList.remove("open-menus");
-    }, 200);
-}
-
-sales.addEventListener("mouseover", openMenus);
-sales.addEventListener("mouseleave", closeMenus);
-
-
 let ourStory = document.getElementById("ourStory");
 let ourStoryDropDown = document.getElementsByClassName("ourStoryDropDown")[0];
 
-let closeTimer;
+let closeTimeout;
 
-function openMenubar() {
-    ourStoryDropDown.classList.add("open-menubar");
+function toggleMenu(element, menuClass) {
+    return function () {
+        clearTimeout(closeTimeout);
+        if (!element.classList.contains(menuClass)) {
+            closeAllMenus();
+            element.classList.add(menuClass);
+        } else {
+            element.classList.remove(menuClass);
+        }
+    };
 }
 
-function closeMenubar() {
-    clearTimeout(closeTimer);
-    closeTimer = setTimeout(function () {
-        ourStoryDropDown.classList.remove("open-menubar");
-    }, 200);
+function closeAllMenus() {
+    dropDown.classList.remove("open-menu");
+    salesDropDown.classList.remove("open-menus");
+    ourStoryDropDown.classList.remove("open-menubar");
 }
 
-ourStory.addEventListener("mouseover", openMenubar);
-ourStory.addEventListener("mouseleave", closeMenubar);
+women.addEventListener("mouseover", toggleMenu(dropDown, "open-menu"));
+men.addEventListener("mouseover", toggleMenu(dropDown, "open-menu"));
+sales.addEventListener("mouseover", toggleMenu(salesDropDown, "open-menus"));
+ourStory.addEventListener("mouseover", toggleMenu(ourStoryDropDown, "open-menubar"));
+
+document.addEventListener("mouseover", function (event) {
+    if (!event.target.matches('.dropDown, #women, #men, #sales, #ourStory')) {
+        closeAllMenus();
+    }
+});
 
 
 // end open dropdown
