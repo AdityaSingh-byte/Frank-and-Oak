@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fank And Oak</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAANlBMVEUAAAAAAAAAAAAAAABHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6yzCRAAAAEnRSTlPp9v8sAPI6GAm3YXjZjU/QxKksh/VgAAAAtUlEQVR4AX3RRQLDMAxEUSsaM9//sm1YSuFvAi9gMIbuFgaTyNhF5ODl9ROD+YOI/zD9RIb6rkLyAPIPNCuifMeCNaavGLHl6BtW7HH5gg1nuTyRPO5cqlVixxq31I6nJGYAbqxndvonslgBchqHWljyCpveryixry/KvEAHTIXtxglgKMwXmgAgKkwXMt5VhfxGsaoszWDFy/SI2o7EOApFbZ+hZQbg0ijWGSYyVFxHj3l//gWDPAoyA1tlWQAAAABJRU5ErkJggg==">
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -44,10 +44,93 @@
     <!-- start navbar  -->
     <div class="container">
         <nav>
-            
+            <img src="images/logo.png" alt="">
+            <div class="menu-item">
+                <ul>
+                    <li><a href="#" class="showDropDown">Women</a></li>
+                    <li><a href="#" class="showDropDown">Men</a></li>
+                    <li><a href="#" class="sale">Sale</a></li>
+                    <li><a href="#">Our Story</a></li>
+                </ul>
+            </div>
+            <div class="menu-icon">
+                <ul>
+                    <li><a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa-regular fa-user"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a></li>
+                    <li><a href="#">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </a></li>
+                </ul>
+            </div>
         </nav>
     </div>
     <!-- end navbar -->
+
+
+    <!-- start dropdown menu men and women -->
+
+    <div class="container">
+        <div class="dropDown" id = "women">
+            <div>
+                <p><a href="#">Featured</a></p>
+                <br>
+                <ul>
+                    <li><a href="#">New In</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Skyline</a></li>
+                    <li><a href="#">The Originals</a></li>
+                    <li><a href="#">Workwear</a></li>
+                    <li><a href="#">Best of Instagram</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                    <li><a href="#" class="sale">Sale</a></li>
+                </ul>
+            </div>
+            <div>
+                <p><a href="#">Clothing</a></p>
+                <br>
+                <ul>
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">T-shirts &amp; Tops</a></li>
+                    <li><a href="#">Sweaters &amp; Cardigans</a></li>
+                    <li><a href="#">Blazers &amp; Overshirts</a></li>
+                    <li><a href="#">Jackets &amp; Coats</a></li>
+                    <li><a href="#">Dresses &amp; Jumpsuits</a></li>
+                    <li><a href="#">Skirts &amp; Shorts</a></li>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Pants</a></li>
+                </ul>
+            </div>
+            <div>
+                <p><a href="#">Accessories</a></p>
+                <br>
+                <ul>
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">Beanies &amp; Caps</a></li>
+                    <li><a href="#">Shoes &amp; Boots</a></li>
+                    <li><a href="#">Bags</a></li>
+                </ul>
+            </div>
+            <div style="position: relative;">
+                <img src="https://www.frankandoak.com/cdn/shop/files/MENU-TILE_MW_Shirts_600x.jpg?v=1707922485" alt="Shirt">
+                <div style="position: absolute; left: 25%; bottom: 10%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
+                    <h2>Shirts</h2>
+                </div>
+            </div>
+            <div style="position: relative;">
+                <img src="https://www.frankandoak.com/cdn/shop/files/MENU-TILE_WW_Denim_600x.jpg?v=1707922520" alt="">
+                <div style="position: absolute; left: 25%; bottom: 10%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
+                    <h2>Denim</h2>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

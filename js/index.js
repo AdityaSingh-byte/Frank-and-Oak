@@ -17,15 +17,13 @@ function moveCarousel(direction) {
     carouselItems.style.transform = `translateX(-${itemWidth * currentIndex}px)`;
 }
 
-// Start automatic sliding
 function startAutoSlide() {
-    timer = setInterval(() => moveCarousel('auto'), 3000); // Change slide every 3 seconds
+    timer = setInterval(() => moveCarousel('auto'), 5000); 
 }
 
-// Stop automatic sliding
 function stopAutoSlide() {
     clearInterval(timer);
 }
 
-// Start automatic sliding when page loads
 window.onload = startAutoSlide;
+

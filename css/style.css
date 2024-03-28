@@ -1,80 +1,241 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-.container{
-    max-width: 100%;
-    height: 0 auto;
+.container {
+  max-width: 90%;
+  margin: 0 auto;
 }
-.header{
-    height: 10vh;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    color: #fff;
-    position: relative;
-    background-color: #000000;
+
+.header {
+  height: 6vh;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  text-align: center;
+  background-color: #000000;
 }
-.header .text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    text-align: center;
-    position: relative;
-    font-size: 12px;
+
+.header .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  text-align: center;
+  font-size: 12px;
 }
-.header .text a{
-    color: #fff;
-    font-weight: 700;
-    font-size: 13px;
+
+.header .text a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
 }
-.header .flag{
-    width: 10vw;
-    display: flex;
+
+.header .flag {
+  width: 10vw;
+  display: flex;
 }
-.header .flag img{
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+
+.header .flag img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
 }
-.header .flag i{
-    margin-left: 10px;
+
+.header .flag i {
+  margin-left: 10px;
 }
 
 #carousel-container {
-    width: 50%;
-    overflow: hidden;
-    position: relative;
-  }
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+}
 
 #carousel-items {
-    display: flex;
-    transition: transform 0.5s ease;
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  padding: 10px;
+  z-index: 100;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+/* nav design */
+nav{
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+nav img{
+  width: 200px;
+  height: 80%;
+}
+
+nav .menu-item{
+  width: 35%;
+  margin-right: 20%;
+}
+nav .menu-icon{
+  width: 12%;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #595959;
+  font-size: 20px;
+}
+nav ul li a:hover{
+  text-decoration: underline;
+}
+nav ul li a i{
+  font-size: 25px;
+}
+
+.sale{
+  color: #ed2e00;
+}
+
+/* start dropDown style  */
+.dropDown{
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #f4f8f7;
+  display: none;
+}
+
+.dropDown p a{
+  color: #595959;
+  font-size: 20px;
+}
+.dropDown>div{
+  padding: 20px;
+}
+
+.dropDown>div img{
+  margin-top: 15px;
+  width: 300px;
+  height: 300px;
+  transition: opacity 0.3s ease;
+}
+.dropDown>div img:hover{
+  opacity: 0.9;
+  background-color: #595959;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.dropDown>div ul li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+.dropDown>div ul li a{
+  color: #595959;
+  text-decoration: none;
+}
+.dropDown>div ul li a:hover{
+  text-decoration: underline;
+}
+
+
+
+/* Responsive  */
+/*  for moblie device */
+@media screen and (min-width : 320px) and (max-width : 480px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
   }
 
-  .carousel-item {
-    flex: 0 0 100%; 
+  .header {
+    height: 8vh;
   }
 
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #fff;
-    padding: 10px;
-    z-index: 100;
+  .header .text {
+    text-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+  }
+  .header .text a{
+    font-size: 10px;
   }
 
-  .prev {
-    left: 0;
+  #carousel-container {
+    width: 100%;
+    margin: 0px 10px 0px 10px;
   }
 
-  .next {
-    right: 0;
+  .header .flag {
+    width: 0px;
+    display: none;
   }
+
+}
+
+
+/* for tablet */
+
+@media screen and (min-width : 481px) and (max-width : 768px) {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .header {
+    height: 5vh;
+  }
+
+  .header .text {
+    text-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+  }
+  .header .text a{
+    font-size: 12px;
+  }
+
+  #carousel-container {
+    width: 100%;
+    margin: 0px 30px 0px 20px;
+  }
+
+  .header .flag {
+    width: 0px;
+    display: none;
+  }
+
+}
