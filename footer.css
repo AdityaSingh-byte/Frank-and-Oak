@@ -1,0 +1,90 @@
+/* Navbar_First_section styling part start here */
+#footer_first_section{
+    width: 100%;
+    margin: auto;
+    /* height: 201px; */
+    background-color: #000000;
+     color: white;
+     display: flex;
+     /* gap: 100px; */
+     /* flex-direction:; */
+     flex-wrap: wrap;
+     justify-content: center;
+     justify-content: space-around;
+    
+}    
+
+#footer_first_section>div{
+    text-align: center;
+    width: 189px;
+    font-family: sans-serif;
+    height: 201px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#footer_first_section>div h4{
+    font-size: 16px;
+    /* font-weight:200; */
+}
+#footer_first_section>div p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+.accordion{
+    display: none;
+}
+.accordion-item h2{
+    width:150px;
+    
+}
+
+.country_logo{
+    height:20px;
+    width: 30px;
+    margin-right: 10px;
+}
+.accordion-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+/* footer second part styling  */
+
+#footer_second_part{
+    height: 80vh;
+    background-color: #000000;
+    display: grid;
+}
+
+.fab.fa-instagram,
+.fab.fa-facebook,
+.fab.fa-twitter,
+.fab.fa-pinterest,
+.fas.fa-envelope,
+.fab.fa-linkedin {
+    color: white;
+}
+ 
+.frankandoak_logo{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+#list_container a{
+   text-decoration: none;
+   color: white;
+}
