@@ -130,13 +130,16 @@ nav ul li a i{
 
 /* start dropDown style  */
 .dropDown{
+  width: 100%;
   height: 50vh;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   background-color: #f4f8f7;
   display: none;
 }
-
+.dropDown.open-menu{
+  display: grid;
+}
 .dropDown p a{
   color: #595959;
   font-size: 20px;
@@ -168,6 +171,84 @@ nav ul li a i{
 .dropDown>div ul li a:hover{
   text-decoration: underline;
 }
+
+/* Sales salesDropDown */
+
+.salesDropDown{
+  width: 100%;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #f4f8f7;
+  display: none;
+}
+.salesDropDown.open-menus{
+  display: grid;
+}
+.salesDropDown p a{
+  color: #595959;
+  font-size: 20px;
+}
+.salesDropDown>div{
+  padding: 20px;
+}
+
+.salesDropDown>div img{
+  margin-top: 15px;
+  width: 400px;
+  height: 300px;
+  transition: opacity 0.3s ease;
+}
+.salesDropDown>div img:hover{
+  opacity: 0.9;
+  background-color: #595959;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.salesDropDown>div ul li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+.salesDropDown>div ul li a{
+  color: #595959;
+  text-decoration: none;
+}
+.salesDropDown>div ul li a:hover{
+  text-decoration: underline;
+}
+
+/* our Story Drop Down style*/
+
+.ourStoryDropDown{
+  width: 100%;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: #f4f8f7;
+  display: none;
+}
+.ourStoryDropDown.open-menubar{
+  display: grid;
+}
+.ourStoryDropDown>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourStoryDropDown>div img{
+  margin-top: 15px;
+  width: 200px;
+  height: 40vh;
+  transition: opacity 0.3s ease;
+}
+.ourStoryDropDown>div img:hover{
+  opacity: 0.9;
+  background-color: #595959;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
 
 
 
