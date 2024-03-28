@@ -1,0 +1,6 @@
+#sidebar{
+    position: sticky;
+    top: 100px;
+    overflow: scroll;
+    width: 300px;
+}
