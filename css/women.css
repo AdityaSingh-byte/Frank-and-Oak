@@ -1,6 +1,32 @@
 #sidebar{
+    height: 70vh;
     position: sticky;
-    top: 100px;
-    overflow: scroll;
+    
+    overflow-y: scroll;
     width: 300px;
+}
+
+@media (min-width: 1320px) {
+    .container {
+      width: 1320px;
+      margin:auto;
+  }
+}
+#body{
+    display: flex;
+    gap: 20px;
+}
+#mainContainer{
+    margin-left: 100px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.card_list{
+    
+    width: 300px;
+}
+.p_img{
+    width: 100%;
 }
