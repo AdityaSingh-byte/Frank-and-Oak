@@ -406,6 +406,52 @@ nav ul li a i {
 }
 
 
+#heading{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #595959;
+}
+#heading ul{
+  display: flex;
+}
+#heading ul li{
+  list-style: none;
+  margin-right: 30px;
+  font-size: 30px;
+}
+#heading ul li a{
+  text-decoration: none;
+  color: #595959;
+}
+
+.loading{
+  background: #c1c1c1;
+  min-height: 30px;
+  position: relative;
+  overflow: hidden;
+  padding: 0px 20px;
+}
+
+.loading::before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #e3e3e3, transparent);
+  transform: translateX(-100%);
+  animation: loading 1s infinite;
+}
+
+@keyframes loading{
+  100%{
+    transform: translateX(100%);
+  }
+}
+
+
+
 
 /* Responsive  */
 /*  for moblie device */

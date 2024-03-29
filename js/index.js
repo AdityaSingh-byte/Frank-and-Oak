@@ -82,3 +82,23 @@ const toggleNavbar = () => {
 mobile_nav.addEventListener("click", () => {
     toggleNavbar();
 });
+
+setTimeout(()=>{
+    fetchData();
+},2000);
+
+function fetchData(){
+    let h2 = document.querySelector(".h2");
+    let li1 = document.querySelector(".li1");
+    let li2 = document.querySelector(".li2");
+
+    h2.innerHTML = `${"Spring must-haves, now at 25% off*."}`;
+    li1.innerHTML = `${"Women's"}`;
+    li2.innerHTML = `${"Men's"}`;
+
+    h2.classList.remove("loading");
+    li1.classList.remove("loading");
+    li2.classList.remove("loading")
+}
+
+
