@@ -70,3 +70,15 @@ document.addEventListener("mouseover", function (event) {
 
 
 // end open dropdown
+
+
+const mobile_nav = document.querySelector(".mobile-navbar-btn");
+const nav_element = document.querySelector("nav"); // Selecting <nav> element directly
+
+const toggleNavbar = () => {
+    nav_element.classList.toggle("active");
+}
+
+mobile_nav.addEventListener("click", () => {
+    toggleNavbar();
+});
