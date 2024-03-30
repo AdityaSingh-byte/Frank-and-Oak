@@ -2000,22 +2000,8 @@
             "price": "$79.50",
             "Category": "Men"
         },
-        {
-            "ID": "212",
-            "Image": "https://www.frankandoak.com/cdn/shop/files/1130346-2EO.00_450x.jpg?v=1711463433",
-            "product-badge": "new",
-            "Title": "The Striped Polo Sweater in Chocolate Brown",
-            "price": "$99.50",
-            "Category": "Men"
-        },
-        {
-            "ID": "213",
-            "Image": "https://www.frankandoak.com/cdn/shop/files/1220147-5BO.00_450x.jpg?v=1711122829",
-            "product-badge": "new",
-            "Title": "The Joey Cargo Short in Boreal Green",
-            "price": "$89.50",
-            "Category": "Men"
-        },
+      
+      
         {
             "ID": "214",
             "Image": "https://www.frankandoak.com/cdn/shop/files/1110700-196.01_450x.jpg?v=1711392182",
@@ -2106,14 +2092,7 @@
             "price": "$89.50",
             "Category": "Men"
         },
-        {
-            "ID": "224",
-            "Image": "https://www.frankandoak.com/cdn/shop/files/1130345-2CF.00_450x.jpg?v=1711121146",
-            "product-badge": "new",
-            "Title": "The Short Sleeve Polo Sweater in Cloud",
-            "price": "$99.50",
-            "Category": "Men"
-        },
+       
         {
             "ID": "225",
             "Image": "https://www.frankandoak.com/cdn/shop/files/1130337-4LO.01_450x.jpg?v=1709578120",
@@ -2363,14 +2342,7 @@
             "price": "$49.50",
             "Category": "Men"
         },
-        {
-            "ID": "254",
-            "Image": "https://www.frankandoak.com/cdn/shop/files/1120842-8FS.00_450x.jpg?v=1710949424",
-            "product-badge": "new",
-            "Title": "The Eco Dye Slim T-Shirt in Golden Honey",
-            "price": "$49.50",
-            "Category": "Men"
-        },
+       
         {
             "ID": "255",
             "Image": "https://www.frankandoak.com/cdn/shop/files/1120882-4JV.01_450x.jpg?v=1686944102",
@@ -2606,14 +2578,7 @@
             "price": "$39.97",
             "Category": "Men"
         },
-        {
-            "ID": "285",
-            "Image": "https://www.frankandoak.com/cdn/shop/files/1130343-600.00_450x.jpg?v=1710956318",
-            "product-badge": "new",
-            "Title": "The Short Sleeve Linen Polo Sweater in Lilac",
-            "price": "$99.50",
-            "Category": "Men"
-        },
+       
         {
             "ID": "286",
             "Image": "https://www.frankandoak.com/cdn/shop/files/1210338-481.7987_450x.jpg?v=1707257394",
@@ -2869,12 +2834,7 @@
             "price": "$29.50",
             "Category": "Men"
         },
-        {
-            "ID": "316",
-            "Image": "https://www.frankandoak.com/cdn/shop/files/1980044-4CW.9853_450x.jpg?v=1691165629",
-            "price": "$34.99",
-            "Category": "Men"
-        },
+        
         {
             "ID": "317",
             "Image": "https://www.frankandoak.com/cdn/shop/files/1940085-477.02_450x.jpg?v=1707320065",
@@ -3262,14 +3222,7 @@
             "price": "$89.50",
             "Category": "Men"
         },
-        {
-            "ID": "363",
-            "Image": "https://www.frankandoak.com/cdn/shop/files/1110704-481.00_450x.jpg?v=1710963108",
-            "product-badge": "new",
-            "Title": "The Fluid Dress Shirt in Deep Blue",
-            "price": "$99.50",
-            "Category": "Men"
-        },
+       
         {
             "ID": "364",
             "Image": "https://www.frankandoak.com/cdn/shop/files/1110705-5FR.02_450x.jpg?v=1711570973",
@@ -3279,14 +3232,7 @@
             "price": "$89.50",
             "Category": "Men"
         },
-        {
-            "ID": "365",
-            "Image": "https://www.frankandoak.com/cdn/shop/files/1110727-625.00_450x.jpg?v=1710963598",
-            "product-badge": "new",
-            "Title": "The Fluid Camp Collar Shirt in Twilight Mauve",
-            "price": "$89.50",
-            "Category": "Men"
-        },
+       
         {
             "ID": "366",
             "Image": "https://www.frankandoak.com/cdn/shop/files/1110733-00P.01_450x.jpg?v=1711571388",
@@ -3323,14 +3269,7 @@
             "price": "$119.00",
             "Category": "Men"
         },
-        {
-            "ID": "370",
-            "Image": "https://www.frankandoak.com/cdn/shop/files/1220146-4EG.00_450x.jpg?v=1710965223",
-            "product-badge": "new",
-            "Title": "The Finn Relaxed Short in Blue",
-            "price": "$89.50",
-            "Category": "Men"
-        },
+      
         {
             "ID": "371",
             "Image": "https://www.frankandoak.com/cdn/shop/files/1220148-578.01_450x.jpg?v=1710784803",
