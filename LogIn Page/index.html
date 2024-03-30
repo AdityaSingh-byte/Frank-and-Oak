@@ -9,13 +9,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>LogIn & SignIn</title>
+    <title>Ludiflex | Login & Registration</title>
   </head>
   <body>
     <div class="wrapper">
       <nav class="nav">
         <div class="nav-logo">
-          <p>FrankAndOak</p>
+          <img id="logoImage" src="image/project Logo.png" alt="" />
         </div>
         <div class="nav-menu" id="navMenu">
           <ul>
@@ -37,31 +37,48 @@
           <i class="bx bx-menu" onclick="myMenuFunction()"></i>
         </div>
       </nav>
+
       <!----------------------------- Form box ----------------------------------->
       <div class="form-box">
         <!------------------- login form -------------------------->
+
         <div class="login-container" id="login">
           <div class="top">
-            <span
-              >Don't have an account?
-              <a href="#" onclick="register()">Sign Up</a></span
-            >
             <header>Login</header>
           </div>
-          <div class="input-box">
-            <input
-              type="text"
-              class="input-field"
-              placeholder="Username or Email"
-            />
-            <i class="bx bx-user"></i>
-          </div>
-          <div class="input-box">
-            <input type="password" class="input-field" placeholder="Password" />
-            <i class="bx bx-lock-alt"></i>
-          </div>
-          <div class="input-box">
-            <input type="submit" class="submit" value="Sign In" />
+
+          <div class="form-container login-form">
+            <form id="login-form">
+              <div class="form-group">
+                <!-- <label for="login-username">Username</label> -->
+                <input
+                  type="text"
+                  id="login-username"
+                  class="input-field"
+                  required
+                  placeholder="Username"
+                />
+              </div>
+              <br />
+              <div class="form-group">
+                <!-- <label for="login-password">Password</label> -->
+                <input
+                  type="password"
+                  id="login-password"
+                  class="input-field"
+                  placeholder="password"
+                  required
+                />
+              </div>
+              <br />
+              <button type="submit" class="submit">Login</button>
+              <p id="login-message"></p>
+              <br />
+              <p class="toggle-form">
+                Don't have an account?
+                <a href="#" id="signup-link" onclick="register()">Sign Up</a>
+              </p>
+            </form>
           </div>
           <div class="two-col">
             <div class="one">
@@ -73,6 +90,7 @@
             </div>
           </div>
         </div>
+
         <!------------------- registration form -------------------------->
         <div class="register-container" id="register">
           <div class="top">
@@ -81,26 +99,50 @@
             >
             <header>Sign Up</header>
           </div>
-          <div class="two-forms">
-            <div class="input-box">
-              <input type="text" class="input-field" placeholder="Firstname" />
-              <i class="bx bx-user"></i>
-            </div>
-            <div class="input-box">
-              <input type="text" class="input-field" placeholder="Lastname" />
-              <i class="bx bx-user"></i>
-            </div>
-          </div>
-          <div class="input-box">
-            <input type="text" class="input-field" placeholder="Email" />
-            <i class="bx bx-envelope"></i>
-          </div>
-          <div class="input-box">
-            <input type="password" class="input-field" placeholder="Password" />
-            <i class="bx bx-lock-alt"></i>
-          </div>
-          <div class="input-box">
-            <input type="submit" class="submit" value="Register" />
+          <div class="form-container signup-form">
+            <form id="signup-form">
+              <div class="form-group">
+                <!-- <label for="signup-email">Email</label> -->
+                <input
+                  type="email"
+                  id="signup-email"
+                  class="input-field"
+                  placeholder="Enter your Email"
+                  required
+                />
+              </div>
+              <br />
+              <div class="form-group">
+                <!-- <label for="signup-username">Username</label> -->
+                <input
+                  type="text"
+                  id="signup-username"
+                  class="input-field"
+                  placeholder="Enter your Username"
+                  required
+                />
+              </div>
+              <br />
+              <div class="form-group">
+                <!-- <label for="signup-password">Password</label> -->
+
+                <input
+                  type="password"
+                  id="signup-password"
+                  class="input-field"
+                  placeholder="Enter your Password"
+                  required
+                />
+              </div>
+              <br />
+              <button type="submit" class="submit">Sign Up</button>
+              <p id="signup-message"></p>
+              <br />
+              <p class="toggle-form">
+                Already have an account?
+                <a href="#" id="login-link" onclick="login()">Login</a>
+              </p>
+            </form>
           </div>
           <div class="two-col">
             <div class="one">
@@ -114,6 +156,6 @@
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>
+<script src="script.js"></script>

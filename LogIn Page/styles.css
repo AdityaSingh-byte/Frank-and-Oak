@@ -1,5 +1,4 @@
-/* POPPINS FONT */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 *{  
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: url("images/b.jpeg");
+    background: url("images/1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -31,11 +30,7 @@ body{
     background: linear-gradient(rgba(39,39,39, 0.6), transparent);
     z-index: 100;
 }
-.nav-logo p{
-    color: white;
-    font-size: 25px;
-    font-weight: 600;
-}
+ 
 .nav-menu ul{
     display: flex;
 }
@@ -77,6 +72,7 @@ body{
 .nav-menu-btn{
     display: none;
 }
+
 .form-box{
     position: relative;
     display: flex;
@@ -149,7 +145,7 @@ header{
     left: 17px;
     color: #fff;
 }
-.submit{
+.submit {
     font-size: 15px;
     font-weight: 500;
     color: black;
@@ -183,6 +179,10 @@ header{
 }
 .two label a:hover{
     text-decoration: underline;
+}
+#logoImage{
+    height: 50px;
+    margin-top: 30px;
 }
 @media only screen and (max-width: 786px){
     .nav-button{
