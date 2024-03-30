@@ -7,7 +7,8 @@
             "product-badge": "new",
             "Title": "The Garment Dyed Dad Cap in Light Pink",
             "Price": "$29.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "2",
@@ -16,7 +17,8 @@
             "product-badge": "new",
             "Title": "The Celine Bermuda Short in Black",
             "Price": "$89.50",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "3",
@@ -25,7 +27,8 @@
             "product-badge": "new",
             "Title": "The Loose Kapok Shirt in Bright White",
             "Price": "$119.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "4",
@@ -34,7 +37,8 @@
             "product-badge": "new",
             "Title": "The Wrap Mini Skirt in Green Beige",
             "Price": "$89.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "5",
@@ -43,7 +47,8 @@
             "product-badge": "new",
             "Title": "The Courtney Carpenter Loose Jean in Dark Cobalt",
             "Price": "$129.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "6",
@@ -52,7 +57,8 @@
             "product-badge": "new",
             "Title": "The Courtney Loose Jean in Sage Green",
             "Price": "$129.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "7",
@@ -61,7 +67,8 @@
             "product-badge": "best seller",
             "Title": "The Courtney Loose Jean in Dark Wash",
             "Price": "$129.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "8",
@@ -70,7 +77,8 @@
             "product-badge": "back in",
             "Title": "The Large Frank And Oak Tote Bag in Natural Light",
             "Price": "$13.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "9",
@@ -79,7 +87,8 @@
             "product-badge": "new",
             "Title": "The Earth Day Tote in Natural Light",
             "Price": "$16.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "10",
@@ -88,7 +97,8 @@
             "product-badge": "new",
             "Title": "The Lightweight Crewneck Sweater in Bright White",
             "Price": "$99.50",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "11",
@@ -97,7 +107,8 @@
             "product-badge": "new",
             "Title": "The Parachute Vest in Dark Clay",
             "Price": "$89.50",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "12",
@@ -106,7 +117,8 @@
             "product-badge": "new",
             "Title": "The Camp Collar Blouse in Mocha",
             "Price": "$89.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "13",
@@ -115,7 +127,8 @@
             "product-badge": "new",
             "Title": "The Satin Maxi Skirt in Lichen",
             "Price": "$99.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "14",
@@ -124,7 +137,8 @@
             "product-badge": "back in",
             "Title": "The Cyndi Straight Jean in Dark Wash",
             "Price": "$119.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "15",
@@ -133,7 +147,8 @@
             "product-badge": "new",
             "Title": "The Lightweight Crewneck Sweater in Dark Cobalt",
             "Price": "$99.50",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
        
         {
@@ -142,7 +157,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130252-6AW.747_450x.jpg?v=1695914969",
             "Title": "The Comfort Colour Block Sweater in Ultraviolet",
             "Price": "$39.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "18",
@@ -151,7 +167,8 @@
             "product-badge": "new",
             "Title": "The Annie Textured Loose Pant in Mahogany",
             "Price": "$119.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "19",
@@ -160,7 +177,8 @@
             "product-badge": "new",
             "Title": "The Crinkle Textured Blouse in Mahogany",
             "Price": "$99.50",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "20",
@@ -169,7 +187,8 @@
             "product-badge": "best seller",
             "Title": "The Mockneck Tank Top in Bright White",
             "Price": "$14.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "21",
@@ -178,7 +197,8 @@
             "product-badge": "new",
             "Title": "The Emma Parachute Wide Leg Pant in Fog",
             "Price": "$119.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "22",
@@ -187,7 +207,8 @@
             "product-badge": "new",
             "Title": "The Merino Wool Blend Sweater in Dark Green",
             "Price": "$129.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "23",
@@ -196,23 +217,18 @@
             "product-badge": "new",
             "Title": "The Poplin Long Sleeve Shirt in Dark Cobalt",
             "Price": "$119.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
-        {
-            "ID": "24",
-            "Image": "https://www.frankandoak.com/cdn/shop/files/2230116-366.00_450x.jpg?v=1711115142",
-            "product-badge": "new",
-            "Title": "The Crinkle Textured Midi Skirt in Mahogany",
-            "Price": "$89.50",
-            "Size": "M"
-        },
+      
         {
             "ID": "25",
             "Image": "https://www.frankandoak.com/cdn/shop/files/1940085-002.02_450x.jpg?v=1707320236",
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/1940085-002.01_450x.jpg?v=1707320236",
             "product-badge": "new",
             "Price": "$29.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "26",
@@ -221,7 +237,8 @@
             "product-badge": "back in",
             "Title": "The Frank And Oak Tote Bag in Natural Light",
             "Price": "$10.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "27",
@@ -230,7 +247,8 @@
             "product-badge": "back in",
             "Title": "The Large Frank And Oak Tote Bag in Black",
             "Price": "$13.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "28",
@@ -239,7 +257,8 @@
             "product-badge": "new",
             "Title": "The Parachute Maxi Skirt in Pink Clay",
             "Price": "$89.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "29",
@@ -248,7 +267,8 @@
             "product-badge": "best seller",
             "Title": "The Kapok Button-Up Striped Shirt in White",
             "Price": "$49.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "30",
@@ -257,7 +277,8 @@
             "product-badge": "new",
             "Title": "The Dad Cap in Mallard Blue",
             "Price": "$29.50",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "31",
@@ -265,7 +286,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130258-240.03_450x.jpg?v=1698690407",
             "Title": "The Gradient Seawool® Sweater in Taupe",
             "Price": "$64.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "32",
@@ -274,7 +296,8 @@
             "product-badge": "new",
             "Title": "The Parachute Dress in Black",
             "Price": "$149.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "33",
@@ -282,7 +305,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2310159-002.02_ec7fc205-1a41-4f6a-9347-57d6d8bb982d_450x.jpg?v=1696535514",
             "Title": "The Glen Plaid Long Vest in Black",
             "Price": "$59.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "34",
@@ -291,7 +315,8 @@
             "product-badge": "new",
             "Title": "The Aero Cross Body Bag in Black",
             "Price": "$49.50",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "35",
@@ -300,7 +325,8 @@
             "product-badge": "new",
             "Title": "The Emma Parachute Wide Leg Pant in Dark Clay",
             "Price": "$119.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "36",
@@ -309,7 +335,8 @@
             "product-badge": "new",
             "Title": "The Merino Wool Blend Sweater in Light Grey",
             "Price": "$129.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "37",
@@ -318,7 +345,8 @@
             "product-badge": "best seller",
             "Title": "The Camp Collar Blouse in Coronet Blue",
             "Price": "$89.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "38",
@@ -327,7 +355,8 @@
             "product-badge": "new",
             "Title": "The Courtney Loose Jean in Washed Blue",
             "Price": "$129.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "39",
@@ -335,7 +364,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2940047-5AS.112_450x.jpg?v=1697833046",
             "Title": "The Colour Block Seawool® Beanie in Pink",
             "Price": "$19.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "40",
@@ -343,7 +373,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2110325-2KR.01_450x.jpg?v=1695823999",
             "Title": "The Pinstriped Vest in Oxford Tan",
             "Price": "$34.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "41",
@@ -351,7 +382,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120463-002.02_450x.jpg?v=1700855290",
             "Title": "The Long Sleeve T-shirt in Black",
             "Price": "$24.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "42",
@@ -360,7 +392,8 @@
             "product-badge": "new",
             "Title": "The Relaxed Single Breasted Blazer in Sepia",
             "Price": "$199.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "43",
@@ -369,7 +402,8 @@
             "product-badge": "new",
             "Title": "The Aero Cross Body Bag in Boreal Green",
             "Price": "$49.50",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "44",
@@ -378,7 +412,8 @@
             "product-badge": "best seller",
             "Title": "The Mid-Sleeve Mockneck in Deep Tamarin",
             "Price": "$24.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "45",
@@ -387,7 +422,8 @@
             "product-badge": "best seller",
             "Title": "The Fluid Poet Collar Long Dress in Stormy Blue",
             "Price": "$44.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "46",
@@ -395,7 +431,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130247-611.753_450x.jpg?v=1695736606",
             "Title": "The Comfort Turtleneck Sweater in Burgundy",
             "Price": "$44.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "47",
@@ -403,7 +440,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210094-00B.8940_450x.jpg?v=1692114733",
             "Title": "The Stevie Tapered Jean in Washed Black",
             "Price": "$119.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "48",
@@ -412,7 +450,8 @@
             "product-badge": "best seller",
             "Title": "The Flex Camp Collar Dress in Black",
             "Price": "$49.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "49",
@@ -421,7 +460,8 @@
             "product-badge": "new",
             "Title": "The Mini Skirt in Light Khaki",
             "Price": "$89.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "50",
@@ -429,7 +469,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130250-326.02_450x.jpg?v=1696598160",
             "Title": "The Drop Shoulder Crewneck Sweater in Red Wine",
             "Price": "$49.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "51",
@@ -438,7 +479,8 @@
             "product-badge": "new",
             "Title": "The Loose Striped Kapok Shirt in Dark Green",
             "Price": "$119.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "52",
@@ -446,7 +488,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130261-21L.04_450x.jpg?v=1698690223",
             "Title": "The Seawool® Turtleneck in Cappuccino",
             "Price": "$39.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "53",
@@ -454,7 +497,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210554-1FJ.02_450x.jpg?v=1698433388",
             "Title": "The Emma Pinstripe Ultra Wide Leg Pant in Cool Grey",
             "Price": "$64.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "54",
@@ -463,7 +507,8 @@
             "product-badge": "few left",
             "Title": "The Striped Long Sleeve Ribbed Top in Black and White",
             "Price": "$29.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "55",
@@ -471,7 +516,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2110330-8FL.803_450x.jpg?v=1690908807",
             "Title": "The Printed Camp Collar Blouse in Daisy",
             "Price": "$34.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "56",
@@ -479,7 +525,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2110292-012.021_450x.jpg?v=1692367178",
             "Title": "The Camp Collar Blouse in White",
             "Price": "$89.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "57",
@@ -487,7 +534,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210550-002.02_450x.jpg?v=1696535337",
             "Title": "The Emma Ultra Wide Leg Pant in Black",
             "Price": "$44.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "58",
@@ -495,7 +543,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120171-012.8869_450x.jpg?v=1690988729",
             "Title": "The Striped Essential T-Shirt in White",
             "Price": "$44.50",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "59",
@@ -504,7 +553,8 @@
             "product-badge": "back in",
             "Title": "The Frank And Oak Tote Bag in Black",
             "Price": "$10.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "60",
@@ -512,7 +562,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120450-414.02_450x.jpg?v=1696361676",
             "Title": "The French Terry Crewneck in Midnight Blue",
             "Price": "$29.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "61",
@@ -521,7 +572,8 @@
             "product-badge": "new",
             "Title": "The Striped Bubble Cardigan in Black",
             "Price": "$119.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "62",
@@ -530,7 +582,8 @@
             "product-badge": "best seller",
             "Title": "The Kapok Cropped Trench Coat in Boreal Green",
             "Price": "$249.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "63",
@@ -539,7 +592,8 @@
             "product-badge": "best seller",
             "Title": "The Printed Camp Collar Blouse in Dark Blue",
             "Price": "$49.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "64",
@@ -548,7 +602,8 @@
             "product-badge": "new",
             "Title": "The Compact Mock Neck Sweater in Dark Purple",
             "Price": "$99.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "65",
@@ -557,7 +612,8 @@
             "product-badge": "new",
             "Title": "The Linen Long Sleeve Shirt in Bright White",
             "Price": "$119.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "66",
@@ -566,7 +622,8 @@
             "product-badge": "few left",
             "Title": "The Mid-Sleeve Mockneck in Dark Blue",
             "Price": "$24.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "67",
@@ -575,7 +632,8 @@
             "product-badge": "new",
             "Title": "The Wool Blend Top Coat in Fog",
             "Price": "$399.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "68",
@@ -584,7 +642,8 @@
             "product-badge": "new",
             "Title": "The Boxy Single Breasted Blazer in Light Khaki",
             "Price": "$199.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "69",
@@ -593,7 +652,8 @@
             "product-badge": "new",
             "Title": "The Loose Striped Kapok Shirt in Blush Pink",
             "Price": "$119.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "70",
@@ -602,7 +662,8 @@
             "product-badge": "best seller",
             "Title": "The Long Sleeve T-shirt in Champagne",
             "Price": "$24.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "71",
@@ -611,7 +672,8 @@
             "product-badge": "best seller",
             "Title": "The Johnny Collar Half Sleeve Sweater in Honeycomb",
             "Price": "$29.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "72",
@@ -620,7 +682,8 @@
             "product-badge": "best seller",
             "Title": "The Pinstriped Comfort Blazer in Oxford Tan",
             "Price": "$59.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "73",
@@ -628,7 +691,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2110326-579.02_450x.jpg?v=1696363341",
             "Title": "The Fluid Long Sleeve Blouse in Weeping Willow",
             "Price": "$49.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "74",
@@ -637,7 +701,8 @@
             "product-badge": "few left",
             "Title": "The Plaid Mini Skirt in Black",
             "Price": "$39.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "75",
@@ -645,7 +710,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2510406-559.02_450x.jpg?v=1690921206",
             "Title": "The Flex Camp Collar Dress in Teal Grey",
             "Price": "$49.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "76",
@@ -654,7 +720,8 @@
             "product-badge": "new",
             "Title": "The Knitted Cardigan Top in White",
             "Price": "$99.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "77",
@@ -663,7 +730,8 @@
             "product-badge": "new",
             "Title": "The Carpenter Striped Denim Jacket in Dark Cobalt",
             "Price": "$169.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "78",
@@ -671,7 +739,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130191-572.02_450x.jpg?v=1697557368",
             "Title": "The Yak Wool Cardigan in Olive",
             "Price": "$74.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "79",
@@ -679,7 +748,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210547-4BB.01_450x.jpg?v=1695323808",
             "Title": "The Annie Cargo Pant in Dark Blue",
             "Price": "$54.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "80",
@@ -688,7 +758,8 @@
             "product-badge": "best seller",
             "Title": "The Fluid Long Sleeve Blouse in Soft Orchid",
             "Price": "$49.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "81",
@@ -696,7 +767,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210551-276.02_839eff58-8654-4bce-8c61-4cd9635aba67_450x.jpg?v=1696598612",
             "Title": "The Annie Straight Corduroy Pant in Amber Brown",
             "Price": "$44.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "82",
@@ -705,7 +777,8 @@
             "product-badge": "new",
             "Title": "The Emma Ultra Wide Leg Pant in Dark Roast",
             "Price": "$129.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "83",
@@ -714,7 +787,8 @@
             "product-badge": "new",
             "Title": "The Parachute Comfort Jacket in Black",
             "Price": "$149.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "84",
@@ -723,7 +797,8 @@
             "product-badge": "new",
             "Title": "The Amelia Balloon Pant in Sepia",
             "Price": "$119.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "85",
@@ -731,7 +806,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210507-4CV.8765_450x.jpg?v=1696431679",
             "Title": "The Cyndi Straight Jean in Light Wash",
             "Price": "$119.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "86",
@@ -740,7 +816,8 @@
             "product-badge": "best seller",
             "Title": "The Ara Seacell™ Sweater in Soft Orchid",
             "Price": "$34.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "87",
@@ -748,7 +825,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2230113-4BB.02_450x.jpg?v=1697563535",
             "Title": "The Satin Midi Skirt in Dark Blue",
             "Price": "$49.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "88",
@@ -757,7 +835,8 @@
             "product-badge": "few left",
             "Title": "The Chiffon Short Dress in Sepia",
             "Price": "$74.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "89",
@@ -766,7 +845,8 @@
             "product-badge": "new",
             "Title": "The Sleeveless Polo Sweater in White",
             "Price": "$99.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "90",
@@ -775,7 +855,8 @@
             "product-badge": "Top rated",
             "Title": "The Stevie Tapered Jean in Light Wash",
             "Price": "$119.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "91",
@@ -783,7 +864,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2310155-2BM.04_450x.jpg?v=1701899986",
             "Title": "The Comfort Double Breasted Blazer in Dark Brown",
             "Price": "$59.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "92",
@@ -791,21 +873,18 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2510503-2KR.01_450x.jpg?v=1695823997",
             "Title": "The Pinstriped Pinafore Dress in Oxford Tan",
             "Price": "$39.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
-        {
-            "ID": "93",
-            "Image": "https://www.frankandoak.com/cdn/shop/files/1980044-4CW.9853_450x.jpg?v=1691165629",
-            "Price": "$34.99",
-            "Size": "L"
-        },
+       
         {
             "ID": "94",
             "Image": "https://www.frankandoak.com/cdn/shop/files/2130237-400.01_450x.jpg?v=1698432687",
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130237-400.02_450x.jpg?v=1698432687",
             "Title": "The Yak Wool Tunic Sweater in Navy",
             "Price": "$94.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "95",
@@ -813,7 +892,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2310158-002.0751_450x.jpg?v=1695315896",
             "Title": "The Double Breasted Blazer in Black",
             "Price": "$79.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "96",
@@ -822,7 +902,8 @@
             "product-badge": "new",
             "Title": "The Sleeveless Sweater Dress in Green",
             "Price": "$149.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "97",
@@ -830,7 +911,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210466-00B.8426_450x.jpg?v=1692114728",
             "Title": "The Linda Balloon Jean in Washed Black",
             "Price": "$119.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "98",
@@ -838,7 +920,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130232-276.02_c8b6572b-152c-45ba-8894-d89ce8b80114_450x.jpg?v=1696362536",
             "Title": "The Ara Seacell™ Sweater in Amber Brown",
             "Price": "$34.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "99",
@@ -847,7 +930,8 @@
             "product-badge": "best seller",
             "Title": "The V Neck Sweater Dress in Taupe Melange",
             "Price": "$149.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "100",
@@ -856,7 +940,8 @@
             "product-badge": "new",
             "Title": "The Bell Sleeve Button Up Sweater in Black brown",
             "Price": "$129.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "101",
@@ -864,7 +949,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2110337-2KU.03_29998f71-e31b-4708-b665-85f71306a4a2_450x.jpg?v=1698691049",
             "Title": "The Satin Camp Collar Blouse in Champagne",
             "Price": "$49.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "102",
@@ -872,7 +958,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210500-002.01_450x.jpg?v=1697562924",
             "Title": "The Eleanor Slim Pant in Black",
             "Price": "$119.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "103",
@@ -880,7 +967,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210547-2KS.01_450x.jpg?v=1695323810",
             "Title": "The Annie Cargo Pant in Golden Beige",
             "Price": "$54.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "104",
@@ -888,7 +976,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120401-2IL.02_450x.jpg?v=1696365375",
             "Title": "The Essential Long Sleeve Mockneck in Cappuccino",
             "Price": "$24.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "105",
@@ -897,7 +986,8 @@
             "product-badge": "best seller",
             "Title": "The Skyline Loose Overshirt in Khaki",
             "Price": "$219.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "106",
@@ -905,7 +995,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130261-5AS.01_450x.jpg?v=1698691598",
             "Title": "The Seawool® Turtleneck in Forest Green",
             "Price": "$74.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "107",
@@ -914,7 +1005,8 @@
             "product-badge": "best seller",
             "Title": "The Bell Sleeve Zip Up Sweater in Orchid",
             "Price": "$119.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "108",
@@ -923,7 +1015,8 @@
             "product-badge": "new",
             "Title": "The Boxy Single Breasted Blazer in Dark Roast",
             "Price": "$199.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "109",
@@ -932,7 +1025,8 @@
             "product-badge": "new",
             "Title": "The Button Up Sweater Vest in Sky Blue",
             "Price": "$79.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "110",
@@ -941,7 +1035,8 @@
             "product-badge": "best seller",
             "Title": "The Skyline Reversible Maxi Bomber in Pink Clay",
             "Price": "$219.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "111",
@@ -950,7 +1045,8 @@
             "product-badge": "new",
             "Title": "The V Neck Sweater Dress in Cream",
             "Price": "$149.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "112",
@@ -959,7 +1055,8 @@
             "product-badge": "back in",
             "Title": "The Skyline Reversible Bomber in Rosin",
             "Price": "$199.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "113",
@@ -968,7 +1065,8 @@
             "product-badge": "new",
             "Title": "The Amelia Balloon Pant in Mocha",
             "Price": "$119.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "114",
@@ -977,7 +1075,8 @@
             "product-badge": "best seller",
             "Title": "The Maybelle Duffle Coat in Deep Blue",
             "Price": "$119.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "115",
@@ -986,7 +1085,8 @@
             "product-badge": "new",
             "Title": "The Knitted Cardigan Top in Black",
             "Price": "$99.50",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "116",
@@ -995,7 +1095,8 @@
             "product-badge": "best seller",
             "Title": "The Jane Straight Pant in Black",
             "Price": "$44.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "117",
@@ -1004,7 +1105,8 @@
             "product-badge": "best seller",
             "Title": "The Pinstripe Blazer in Cool Grey",
             "Price": "$59.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "118",
@@ -1013,7 +1115,8 @@
             "product-badge": "back in",
             "Title": "The Skyline Reversible Bomber in Black",
             "Price": "$199.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "119",
@@ -1022,7 +1125,8 @@
             "product-badge": "best seller",
             "Title": "The Pinstripe Pinafore Dress in Cool Grey",
             "Price": "$39.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "120",
@@ -1031,7 +1135,8 @@
             "product-badge": "best seller",
             "Title": "The Skyline Reversible Bomber in Ash Blue",
             "Price": "$199.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "121",
@@ -1040,7 +1145,8 @@
             "product-badge": "new",
             "Title": "The Loose Fuzzy Sweater in Peony Blue",
             "Price": "$129.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "122",
@@ -1049,7 +1155,8 @@
             "product-badge": "new",
             "Title": "The Linen Long Sleeve Shirt in Coronet Blue",
             "Price": "$119.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "123",
@@ -1058,7 +1165,8 @@
             "product-badge": "new",
             "Title": "The Loose Fuzzy Sweater in Fog",
             "Price": "$129.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "124",
@@ -1066,7 +1174,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120402-8FL.02_450x.jpg?v=1690908260",
             "Title": "The Printed Short Sleeve Mockneck",
             "Price": "$19.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "125",
@@ -1075,7 +1184,8 @@
             "product-badge": "new",
             "Title": "The Ara Seacell™ Sweater in Dark Chocolate",
             "Price": "$129.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "126",
@@ -1084,7 +1194,8 @@
             "product-badge": "few left",
             "Title": "The Essential Long Sleeve Mockneck in Kombu Green",
             "Price": "$39.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "127",
@@ -1092,7 +1203,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2110332-012.02_450x.jpg?v=1696365305",
             "Title": "The Button Up Long Sleeve Blouse in White",
             "Price": "$39.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "128",
@@ -1101,7 +1213,8 @@
             "product-badge": "new",
             "Title": "The Bell Sleeve Button Up Sweater in Cream",
             "Price": "$129.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "129",
@@ -1110,7 +1223,8 @@
             "product-badge": "back in",
             "Title": "The Skyline Reversible Maxi Bomber in Rosin",
             "Price": "$219.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "130",
@@ -1118,7 +1232,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130247-2KI.02_450x.jpg?v=1699300717",
             "Title": "The Comfort Turtleneck Sweater in Vanilla",
             "Price": "$44.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "131",
@@ -1127,7 +1242,8 @@
             "product-badge": "new",
             "Title": "The Compact Mock Neck Sweater in Dark Green",
             "Price": "$99.50",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "132",
@@ -1136,7 +1252,8 @@
             "product-badge": "new",
             "Title": "The Skyline Reversible Maxi Bomber in Boreal Green",
             "Price": "$219.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "133",
@@ -1145,7 +1262,8 @@
             "product-badge": "new",
             "Title": "The Ara Seacell™ Sweater in Afterglow",
             "Price": "$129.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "134",
@@ -1153,7 +1271,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2110364-3CQ.04_450x.jpg?v=1698690837",
             "Title": "The Long Sleeve Camp Collar Blouse in Smoked Paprika",
             "Price": "$39.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "135",
@@ -1161,7 +1280,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210422-002.9008_450x.jpg?v=1692114718",
             "Title": "The Eleanor Slim Flex Pant in Black",
             "Price": "$149.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "136",
@@ -1170,7 +1290,8 @@
             "product-badge": "best seller",
             "Title": "The Emma Ultra Wide Leg Pant in Oxford Tan",
             "Price": "$39.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "137",
@@ -1179,7 +1300,8 @@
             "product-badge": "best seller",
             "Title": "The Essential T-Shirt in Hibiscus Red",
             "Price": "$14.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "138",
@@ -1188,7 +1310,8 @@
             "product-badge": "best seller",
             "Title": "The Linda Balloon Jean in Light Wash",
             "Price": "$119.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "139",
@@ -1197,7 +1320,8 @@
             "product-badge": "few left",
             "Title": "The Corduroy Mini Skirt in Amber Brown",
             "Price": "$29.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "140",
@@ -1205,7 +1329,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2230113-2KU.01_450x.jpg?v=1698937530",
             "Title": "The Satin Midi Skirt in Champagne",
             "Price": "$49.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "141",
@@ -1214,7 +1339,8 @@
             "product-badge": "few left",
             "Title": "The Axis Polar Fleece Pullover in Evergreen",
             "Price": "$44.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "142",
@@ -1223,7 +1349,8 @@
             "product-badge": "back in",
             "Title": "The Kim Slim Jean in Dark Wash",
             "Price": "$119.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "143",
@@ -1232,14 +1359,16 @@
             "product-badge": "new",
             "Title": "The Relaxed Single Breasted Blazer in Muted Brown",
             "Price": "$199.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "144",
             "Image": "https://www.frankandoak.com/cdn/shop/files/2130283-5AR.00_450x.jpg?v=1710947916",
             "product-badge": "new",
             "Price": "$79.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "145",
@@ -1248,7 +1377,8 @@
             "product-badge": "new",
             "Title": "The Halter Sleeveless Sweater in Afterglow",
             "Price": "$79.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "146",
@@ -1256,7 +1386,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130283-002.02_450x.jpg?v=1711217576",
             "product-badge": "new",
             "Price": "$79.50",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "147",
@@ -1264,7 +1395,8 @@
             "product-badge": "new",
             "Title": "The Knit Sweater Skirt in Green",
             "Price": "$99.50",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "148",
@@ -1273,7 +1405,8 @@
             "product-badge": "new",
             "Title": "The Reversible Bucket Hat in Butternut",
             "Price": "$34.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "149",
@@ -1282,7 +1415,8 @@
             "product-badge": "new",
             "Title": "The Garment Dyed Dad Cap in Oatmeal",
             "Price": "$29.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "150",
@@ -1291,7 +1425,8 @@
             "product-badge": "new",
             "Title": "The Garment Dyed Dad Cap in Agave",
             "Price": "$29.50",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "151",
@@ -1300,7 +1435,8 @@
             "product-badge": "new",
             "Title": "The Loose Camp Collar Blouse in Dark Chocolate",
             "Price": "$99.50",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "152",
@@ -1309,7 +1445,8 @@
             "product-badge": "new",
             "Title": "The Striped Shell Top in Cream Yellow",
             "Price": "$69.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "153",
@@ -1318,7 +1455,8 @@
             "product-badge": "new",
             "Title": "The Shell Button Up Top in Green Beige",
             "Price": "$89.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "154",
@@ -1327,7 +1465,8 @@
             "product-badge": "new",
             "Title": "The Striped Crewneck Sweater in Peony Blue",
             "Price": "$129.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "155",
@@ -1336,7 +1475,8 @@
             "product-badge": "new",
             "Title": "The Jane Straight Pant in Sepia",
             "Price": "$119.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "156",
@@ -1345,7 +1485,8 @@
             "product-badge": "new",
             "Title": "The Mia Wide Balloon Pant in Green Beige",
             "Price": "$149.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "157",
@@ -1354,7 +1495,8 @@
             "product-badge": "new",
             "Title": "The Annie Straight Loose Pant in Cream Yellow",
             "Price": "$119.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "158",
@@ -1363,7 +1505,8 @@
             "product-badge": "new",
             "Title": "The Linda Floral Balloon Jean in White",
             "Price": "$149.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "159",
@@ -1372,7 +1515,8 @@
             "product-badge": "new",
             "Title": "The Cyndi Straight Jean in White",
             "Price": "$119.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "160",
@@ -1381,7 +1525,8 @@
             "product-badge": "new",
             "Title": "The Courtney Loose Denim Short in White",
             "Price": "$89.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "161",
@@ -1390,7 +1535,8 @@
             "product-badge": "new",
             "Title": "The Courtney Loose Denim Short in Sage Green",
             "Price": "$89.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "162",
@@ -1398,7 +1544,8 @@
             "product-badge": "new",
             "Title": "The Celine Bermuda Short in Green Beige",
             "Price": "$89.50",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "163",
@@ -1406,7 +1553,8 @@
             "product-badge": "new",
             "Title": "The Tina Relaxed Denim Short in Light Wash",
             "Price": "$89.50",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "164",
@@ -1415,7 +1563,8 @@
             "product-badge": "new",
             "Title": "The Tina Relaxed Denim Short in Dark Wash",
             "Price": "$89.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "165",
@@ -1424,7 +1573,8 @@
             "product-badge": "new",
             "Title": "The Carpenter Mini Denim Skirt in Dark Cobalt",
             "Price": "$99.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "166",
@@ -1433,7 +1583,8 @@
             "product-badge": "new",
             "Title": "The Parachute Comfort Jacket in Fog",
             "Price": "$149.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "167",
@@ -1442,7 +1593,8 @@
             "product-badge": "new",
             "Title": "The Western Denim Overshirt in White",
             "Price": "$169.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "168",
@@ -1451,7 +1603,8 @@
             "product-badge": "new",
             "Title": "The Relaxed Single Breasted Blazer in Black",
             "Price": "$199.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "169",
@@ -1460,7 +1613,8 @@
             "product-badge": "new",
             "Title": "The Parachute Jumpsuit in Fog",
             "Price": "$189.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "170",
@@ -1469,7 +1623,8 @@
             "product-badge": "new",
             "Title": "The Parachute Jumpsuit in Pink Clay",
             "Price": "$189.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "171",
@@ -1478,7 +1633,8 @@
             "product-badge": "new",
             "Title": "The Poplin Baby Doll Dress in Bright White",
             "Price": "$129.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "172",
@@ -1486,7 +1642,8 @@
             "product-badge": "new",
             "Title": "The Poplin Puffy Sleeve Dress in Dark Blue",
             "Price": "$149.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "173",
@@ -1495,7 +1652,8 @@
             "product-badge": "new",
             "Title": "The Pocket Shirt Dress in Dark Chocolate",
             "Price": "$149.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "174",
@@ -1504,7 +1662,8 @@
             "product-badge": "new",
             "Title": "The Raffia Beach Visor in Natural Light",
             "Price": "$29.50",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "175",
@@ -1512,7 +1671,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130234-245.02_450x.jpg?v=1698432617",
             "Title": "The Merino Turtleneck Sweater in Dark Brown",
             "Price": "$74.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "176",
@@ -1521,7 +1681,8 @@
             "product-badge": "few left",
             "Title": "The Johnny Collar Half Sleeve Sweater in Porcelain White",
             "Price": "$39.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "177",
@@ -1530,7 +1691,8 @@
             "product-badge": "few left",
             "Title": "The Amelia Balloon Pant in Café",
             "Price": "$59.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "178",
@@ -1538,7 +1700,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120225-002.8697_450x.jpg?v=1690988878",
             "Title": "The Essential T-Shirt in Black",
             "Price": "$44.50",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "179",
@@ -1546,7 +1709,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120403-608.857_450x.jpg?v=1699630215",
             "Title": "The Essential Long Sleeve Mockneck in Elderberry",
             "Price": "$24.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "180",
@@ -1554,7 +1718,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2110292-002.9149_450x.jpg?v=1690988293",
             "Title": "The Camp Collar Blouse in Black",
             "Price": "$89.50",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "181",
@@ -1562,7 +1727,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120403-500.02_450x.jpg?v=1698427961",
             "Title": "The Essential Long Sleeve Mockneck in Olive",
             "Price": "$49.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "182",
@@ -1571,14 +1737,16 @@
             "product-badge": "best seller",
             "Title": "The Corduroy Bomber Jacket in Amber Brown",
             "Price": "$59.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "183",
             "Image": "https://www.frankandoak.com/cdn/shop/files/2410193-002.01_450x.jpg?v=1693592287",
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2410193-002.02_450x.jpg?v=1693592288",
             "Price": "$299.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "184",
@@ -1586,14 +1754,16 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2820127_088.02_e2908b02-0f00-4bc1-ae90-d5f81219ddc7_450x.jpg?v=1691528093",
             "Title": "The Court Thousand Fell x Frank And Oak Sneaker in Off White",
             "Price": "$155.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "185",
             "Image": "https://www.frankandoak.com/cdn/shop/files/2120403-229.9813_450x.jpg?v=1693428119",
             "Title": "The Essential Long Sleeve Mockneck in Sepia",
             "Price": "$24.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "186",
@@ -1601,7 +1771,8 @@
             "product-badge": "best seller",
             "Title": "The Long Sleeve Camp Collar Blouse in Elderberry",
             "Price": "$39.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "187",
@@ -1609,7 +1780,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2410191-5AS.02_450x.jpg?v=1696599070",
             "Title": "The Hygge Puffer Coat in Forest Green",
             "Price": "$224.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "188",
@@ -1617,7 +1789,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2510507-249.02_450x.jpg?v=1698433837",
             "Title": "The Turtleneck Sweater Dress in Caramel",
             "Price": "$69.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "189",
@@ -1625,7 +1798,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120413-4HQ.04_450x.jpg?v=1701294821",
             "Title": "The Axis Polar Fleece Pullover in Night Sky",
             "Price": "$74.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "190",
@@ -1633,7 +1807,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130191-080.02_450x.jpg?v=1697553458",
             "Title": "The Yak Wool Cardigan in Beige",
             "Price": "$94.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "191",
@@ -1642,7 +1817,8 @@
             "product-badge": "best seller",
             "Title": "The Highland Long Puffer Coat in Burgundy",
             "Price": "$199.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "192",
@@ -1650,14 +1826,16 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2510507-063.02_450x.jpg?v=1698433762",
             "Title": "The Turtleneck Sweater Dress in Cream",
             "Price": "$69.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "193",
             "Image": "https://www.frankandoak.com/cdn/shop/files/2410193-556.01_450x.jpg?v=1696599416",
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2410193-556.02_450x.jpg?v=1696599416",
             "Price": "$239.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "194",
@@ -1665,7 +1843,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120413-611.04_450x.jpg?v=1701294829",
             "Title": "The Axis Polar Fleece Pullover in Burgundy",
             "Price": "$59.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "195",
@@ -1673,7 +1852,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2230105-2KR.30_450x.jpg?v=1695824002",
             "Title": "The Pleated Mini Skirt in Oxford Tan",
             "Price": "$34.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "196",
@@ -1681,7 +1861,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/products/2023-03-02-Flats2897_37dd3215-d7db-4625-80cd-6a9ce3183039_450x.jpg?v=1695312202",
             "Title": "The Thesus x Frank And Oak Anyday Rainboot in Black",
             "Price": "$270.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "197",
@@ -1690,7 +1871,8 @@
             "product-badge": "best seller",
             "Title": "The Skyline Reversible Maxi Bomber in Black",
             "Price": "$219.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "198",
@@ -1698,7 +1880,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210551-2BM.02_450x.jpg?v=1696598259",
             "Title": "The Annie Straight Corduroy Pant in Dark Brown",
             "Price": "$59.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "199",
@@ -1706,7 +1889,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/WW_OCT_LOOKBOOK_2_01_450x.jpg?v=1696948268",
             "Title": "The Hygge Puffer Coat in Burgundy",
             "Price": "$224.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "200",
@@ -1714,7 +1898,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2410192-5AS.02_450x.jpg?v=1696366171",
             "Title": "The Highland Long Puffer Coat in Forest Green",
             "Price": "$249.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "201",
@@ -1722,7 +1907,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210502-002.8981_450x.jpg?v=1692114713",
             "Title": "The Amelia Balloon Pant in Black",
             "Price": "$119.00",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "202",
@@ -1730,7 +1916,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120413-2KI.04_450x.jpg?v=1701294814",
             "Title": "The Axis Polar Fleece Pullover in Vanilla",
             "Price": "$74.97",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "203",
@@ -1738,7 +1925,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/WW_OCT_LOOKBOOK_1B_03_450x.jpg?v=1696948634",
             "Title": "The Capital Parka in Espresso",
             "Price": "$299.97",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "204",
@@ -1746,7 +1934,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2410192-002.02_450x.jpg?v=1693592033",
             "Title": "The Highland Long Puffer Coat in Black",
             "Price": "$249.97",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "205",
@@ -1754,7 +1943,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2110292-017.8783_450x.jpg?v=1692209343",
             "Title": "The Essential T-Shirt in Bright White",
             "Price": "$44.50",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
         {
             "ID": "206",
@@ -1762,7 +1952,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210441-2HZ.03_450x.jpg?v=1696535087",
             "Title": "The Amelia Balloon Pant in Light Brown",
             "Price": "$119.00",
-            "Size": "XL"
+            "Size": "XL",
+            "Category": "Women"
         },
         {
             "ID": "207",
@@ -1770,7 +1961,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210514-00B.9082_450x.jpg?v=1692114716",
             "Title": "The Cyndi Straight Jean in Washed Black",
             "Price": "$119.00",
-            "Size": "XS"
+            "Size": "XS",
+            "Category": "Women"
         },
         {
             "ID": "208",
@@ -1778,7 +1970,8 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210521-002.9054_450x.jpg?v=1692114722",
             "Title": "The Jane Straight Flex Pant in Black",
             "Price": "$149.00",
-            "Size": "M"
+            "Size": "M",
+            "Category": "Women"
         },
         {
             "ID": "209",
@@ -1786,8 +1979,10 @@
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2120459-012.01_8b9fbee3-34de-441e-8475-208566e31c33_450x.jpg?v=1704729891",
             "Title": "The Long Sleeve Ribbed Top in White",
             "Price": "$29.97",
-            "Size": "L"
+            "Size": "L",
+            "Category": "Women"
         },
+       
         {
             "ID": "210",
             "Image": "https://www.frankandoak.com/cdn/shop/files/2410182-5CL.01_450x.jpg?v=1696598936",
