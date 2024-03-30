@@ -1,0 +1,83 @@
+
+.Size {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .Size:hover .dropdown-content {
+    display: block;
+  }
+
+  #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+  }
+  .box{
+    /* border: 4px solid red; */
+    position: relative;
+    /* width: 300px; */
+  }
+  .card-img{
+    max-width:  300px;
+    position: relative;
+  }
+  .card-img:hover{
+    
+  }
+  .Cart-btn{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* columns: red; */
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    /* border: 3px solid red; */
+    padding: 8px;
+    color: white;
+    background-color: grey;
+    /* opacity: 0; */
+    /* transition: opacity 0.3s eases;   */
+  }
+  .Cart-btn:hover{
+    background-color: black;
+    
+  }
+  .fa.fa-regular.fa-heart{
+    position: relative;
+    left: 80%;
+    top: -30px;
+    color: grey;
+    cursor: pointer;
+    cursor: progress;
+  }
+  /* .fa.fa-regular.fa-heart:hover{
+    color: red;
+    cursor: pointer;
+
+  } */
+  .fa.fa-regular.fa-heart.filled{
+    color: red;
+    
+  }
+
+  
+  /* .Cart-btn:hover{
+    background-color: blue;
+  } */
