@@ -1,12 +1,12 @@
 #sidebar{
-    height: 70vh;
+    
     position: sticky;
     
-    overflow-y: scroll;
-    width: 300px;
+   
+    
 }
 
-@media (min-width: 1320px) {
+@media (min-width: 1440px) {
     .container {
       width: 1320px;
       margin:auto;
@@ -16,50 +16,70 @@
     display: flex;
     gap: 20px;
 }
+#sidebar{
+    font-family: sans-serif;
+}
 #mainContainer{
-    margin-left: 100px;
+    
     display: grid;
     gap: 20px;
+    justify-content: space-around;
     grid-template-columns: repeat(4,1fr);
+}
+@media (max-width:1250px){
+    #mainContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width:750px){
+    #mainContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:450px){
+    #mainContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
 .card_list{
-    
-    width: 300px;
+    position: relative;
+    width: 370px;
+    font-family: sans-serif;
+    font-weight: 400;
 }
 .p_img{
     width: 100%;
 }
-.carousel {
-    position: relative;
-    overflow: hidden;
+
+#body{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
-.carousel-inner {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.carousel-item {
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-
-.prev,
-.next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: transparent;
+  /* page btn css */
+  .pagebtn{
+    
+    padding: 10px 20px 10px 20px;
     border: none;
-    font-size: 2em;
-    cursor: pointer;
-}
-
-.prev {
-    left: 0;
-}
-
-.next {
-    right: 0;
+    border-radius: 7px;
+  }
+  #btnLoadMore{
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    justify-content: center;
+    gap: 10px;
+  }
+  /* add to cart css */
+.add_to_cart{
+    left: 6px;
+    position: absolute;
+    top: 77%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    width: 97%;
 }
