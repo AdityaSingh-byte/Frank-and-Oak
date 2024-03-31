@@ -6,10 +6,19 @@
       margin:auto;
   }
 }
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
 #sidebar{
-    width: 200px;
+    height: 90vh;
+    overflow-y: scroll;
+   
+    width: 270px;
 }
 #mainContainer{
     
@@ -43,8 +52,12 @@
 .p_img{
     width: 100%;
 }
-
+#shopAll{
+    display: flex;
+    justify-content: space-between;
+}
 #body{
+   
     display: flex;
     gap: 20px;
     font-family: sans-serif;
@@ -68,19 +81,95 @@
   /* add to cart css */
 .add_to_cart{
     left: 6px;
+    font-weight: 500;
     position: absolute;
     top: 70%;
     background-color: white;
-    padding: 10px;
+    padding: 7px;
     border-radius: 2px;
     border: none;
     width: 97%;
 }
 #featured,#Clothing,#Accessories{
     padding: 10px 10px 10px 10px;
+    font-size: 14px;
+}
+#Clothing{
+    >a{
+        text-decoration: none;
+        color: black;
+        padding-bottom: 10px;
+    }
 }
 #navBar{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+/* accordion styling  */
+
+.accordion .contentBx{
+    position: relative;
+    margin: 10px 10px;
+
+}
+.accordion .contentBx .lable{
+    position: relative;
+    /* padding:10px; */
+    cursor: pointer;
+}
+.accordion .contentBx .lable::before{
+    content: '+';
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    /* transform: translate(-50%); */
+    font-size: 1.5em;
+}
+.accordion .contentBx.active .lable::before{
+    content: '-';
+}
+.accordion .contentBx .content{
+    position: relative;
+
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    
+}
+.accordion .contentBx.active .content{
+    height: auto;
+     padding: 10px;
+
+}
+input[type="radio"] {
+   
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: url(https://imgs.search.brave.com/FU5NpLzvwLqYT0TiUuBTrNBxfLsWbKxk0xN8uj-LGnI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvaW50ZXJmYWNl/LXZvbC0xLzE2L2No/ZWNrLWJveC1lbXB0/eS1zcXVhcmUtX3Vu/Y2hlY2tlZC0xMjgu/cG5n) no-repeat center center;
+    background-size: contain;
+  }
+  
+  input[type="radio"]:checked {
+    background-image: url(https://imgs.search.brave.com/7-mbp9Au7ut32uWlx5zC13nOY9unfsqKxcEQeX_2ml4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvZXBpYy1vdXRs/aW5lcy8zMC82NjA5/OTQtY2hlY2tfYnV0/dG9uXzItMTI4LnBu/Zw);
+  }

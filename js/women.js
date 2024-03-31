@@ -9,6 +9,7 @@ let highPrice = document.getElementById('high');
 let midPrice = document.getElementById('Mid');
 let sortFilter = document.getElementById('Sprice');
 let Div_carousel = document.getElementsByClassName("carousel-inner");
+let accordion = document.getElementsByClassName('contentBx');
 
 let pagebtn = document.getElementById("btnLoadMore");
 //card creation function 
@@ -30,7 +31,7 @@ button.classList.add("add_to_cart");
 image.src=data.Image;
 title.textContent=`${data.Title}`;
 price.textContent=`$ ${data.Price}`;
-button.textContent="Add to Cart";
+button.textContent="Quick Add";
 button.style.display = "none";
 //hover functionality 
 image.addEventListener("mousemove",()=>{
@@ -136,7 +137,12 @@ sortFilter.addEventListener('change',()=>{
         fetchData(`${url}&_page=1&_limit=16`,"&_sort=Price&_order=desc")
     }
 })
-
+for(let i=0 ;i<accordion.length;i++){
+    accordion[i].addEventListener("click",function(){
+       
+        this.classList.toggle("active");
+    })
+};
 
 
 
