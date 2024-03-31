@@ -19,10 +19,10 @@ let button = document.createElement("button");
 let title = document.createElement('p');
 let price = document.createElement('p');
 // classes
-cards.classList.add("card_list","container");
-image.classList.add("p_img","container");
-title.classList.add("p_title","container");
-price.classList.add("p_price","container");
+cards.classList.add("card_list");
+image.classList.add("p_img");
+title.classList.add("p_title");
+price.classList.add("p_price");
 
 button.classList.add("add_to_cart");
 

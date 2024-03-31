@@ -1,23 +1,15 @@
-#sidebar{
-    
-    position: sticky;
-    
-   
-    
-}
+
 
 @media (min-width: 1440px) {
     .container {
-      width: 1320px;
+      width: 1440px;
       margin:auto;
   }
 }
-#body{
-    display: flex;
-    gap: 20px;
-}
+
+
 #sidebar{
-    font-family: sans-serif;
+    width: 200px;
 }
 #mainContainer{
     
@@ -44,7 +36,7 @@
 
 .card_list{
     position: relative;
-    width: 370px;
+    width: 300px;
     font-family: sans-serif;
     font-weight: 400;
 }
@@ -53,6 +45,8 @@
 }
 
 #body{
+    display: flex;
+    gap: 20px;
     font-family: sans-serif;
     font-weight: normal;
     font-style: normal;
@@ -61,7 +55,6 @@
 
   /* page btn css */
   .pagebtn{
-    
     padding: 10px 20px 10px 20px;
     border: none;
     border-radius: 7px;
@@ -76,10 +69,18 @@
 .add_to_cart{
     left: 6px;
     position: absolute;
-    top: 77%;
+    top: 70%;
     background-color: white;
     padding: 10px;
     border-radius: 2px;
     border: none;
     width: 97%;
+}
+#featured,#Clothing,#Accessories{
+    padding: 10px 10px 10px 10px;
+}
+#navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
