@@ -66,9 +66,9 @@
     <!-- Section part will end here -->
 
 
-    <!-- country icons part here -->
-    <div class="accordion" id="accordionExample">
-        <div  class="accordion-item">
+    <!-- country icons part starts here -->
+    <div class="accordion country_icon" id="accordionExample">
+        <div  class="accordion-item country_accordion_item">
             <h2  class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                     aria-expanded="true" aria-controls="collapseOne">
@@ -85,13 +85,15 @@
         </div>
     </div>
 
- <!-- country icons part here -->
+ <!-- country icons part ends  here -->
     
 <!-- second part of footer will start here -->
 <summary  id="footer_second_part">
    <!-- Social media icons -->
-    <div id="icon_container">
-        <div><img class="frankandoak_logo" src="./footer_images/frank&oak_logo.png"></div>
+   
+    <div id="icon_main_container">
+      <h4>Stay connected</h4>
+        <div><img class="frankandoak_logo" src="./footer_images/frank-and-oak-logo.jpg"></div>
         <div>
             <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
 <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
@@ -102,6 +104,9 @@
 
 
         </div>
+        <p>This means we meet the highest standards of social and environmental performance, public transparency, and legal accountability in the industry.
+
+        </p>
 </div>
 
 <!-- List of info start here -->
@@ -109,7 +114,7 @@
     <div id="list_container" >
      
         <div>
-            <h5><a href="">Our Story </a></h5>
+            <h4><a href="">Our Story </a></h4>
             <p><a href="">Who we are</a></p>
             <p><a href="">Sustainable practices</a></p>
             <p><a href="">Design Ideology</a></p>
@@ -118,46 +123,163 @@
             </a></p>
             <p><a href="">Partners and factories</a></p>
         </div>
-        <div>
-            
-            <h5><a href=""></a></h5>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-              <p></p>
-      </div>
+        
       <div>
-        <h5><a href=""></a></h5>
-        <p><a href=""></a></p>
-        <p><a href=""></a></p>
-        <p><a href=""></a></p>
-        <p><a href=""></a></p>
-        <p><a href=""></a></p>
-        <p><a href=""></a></p>
+        <h4><a href="">Discover</a></h4>
+        <p><a href="">Gift Cards</a></p>
+        <p><a href="">Frank Rewards</a></p>
+        <p><a href="">Give $15, Get $15</a></p>
+        <p><a href="">Affiliate
+        </a></p>
+        <p><a href="">Work with us
+        </a></p>
+        <p><a href="">Our Stores</a></p>
   </div>
   <div>
-    <h5><a href=""></a></h5>
-    <p><a href=""></a></p>
-    <p><a href=""></a></p>
-    <p><a href=""></a></p>
-    <p><a href=""></a></p>
-    <p><a href=""></a></p>
-    <p><a href=""></a></p>
+    <h4><a href="">Customer Care</a></h4>
+    <p><a href="">Shipping Information</a></p>
+    <p><a href="">Returns & Exchanges</a></p>
+    <p><a href="">Coupon Codes</a></p>
+    <p><a href="">F.A.Q.
+    </a></p>
+    <p><a href="">Terms & Conditions</a></p>
+    <p><a href="">Refund Policy</a></p>
+    <p><a href="">Privacy policy</a></p>
+    <p><a href="">Accessibility Statement</a></p>
+    <p><a href="">Customer Data Requests</a></p>
 </div>
-      
-
     </div>
+
+
+   
 <!-- List of info ends here -->
 
-    <div></div>
+<!-- form info start here -->
+    <div id="form_main_container">
+     
+        <h4>Be the First</h4>
+        <p>Want a better planet with kinder products? Drop us your email⁠— you’ll get dibs on our latest eco-friendly styles and initiatives. Unsubscribe anytime.
+        </p>
+        <form id="form_container" action="" method="get" class="form-example">
+            
+            <div class="form-example">
+              <input class="placeholder" type="email" name="email" id="email" required placeholder="Email" />
+            </div>
+            <div class="form-example">
+                <input class="placeholder" type="text" name="name" id="name" required placeholder="First Name" />
+              </div>
 
+              <fieldset id="fieldset">
+                <span>I shop for</span>
+                
+                  <input type="radio" id="Women" name="drone" value="Women"  />
+                  <label for="Women">Women</label>
+
+                  <input type="radio" id="Men" name="drone" value="Men" />
+                  <label for="Men">Men</label>
+
+              
+
+                  <input type="radio" id="All" name="drone" value="All" />
+                  <label for="All">All</label>
+
+              </fieldset>
+              
+
+            <div class="form-example">
+              <input id="submit"  type="submit" value="Subscribe!" />
+            </div>
+          </form>
+         
+
+    </div>
+    <div id="terms_conditions">
+    <p>© Frank And Oak 2024 , All Rights Reserved.</p></div>
+
+<!-- form info part ends here -->
+
+
+
+<!-- list contianer accordion part for responsive -->
+
+<div id="list_container_accordion">
+        
+    <div  class="accordion" id="accordionExample">
+        <div class="accordion-item accordion_bg_black">
+          <h2 class="accordion-header" id="headingOne">
+            <button  class="accordion-button accordion_bg_black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h4><a href="">Our Story </a></h4>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body ">
+                <p><a href="">Who we are</a></p>
+                <p><a href="">Sustainable practices</a></p>
+                <p><a href="">Design Ideology</a></p>
+                <p><a href="">Fabrics</a></p>
+                <p><a href="">Circular denim™
+                </a></p>
+                <p><a href="">Partners and factories</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item accordion_bg_black">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed accordion_bg_black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <h4><a href="">Discover</a></h4>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+                <p><a href="">Gift Cards</a></p>
+                <p><a href="">Frank Rewards</a></p>
+                <p><a href="">Give $15, Get $15</a></p>
+                <p><a href="">Affiliate
+                </a></p>
+                <p><a href="">Work with us
+                </a></p>
+                <p><a href="">Our Stores</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item accordion_bg_black">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed accordion_bg_black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <h4><a href="">Customer Care</a></h4>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p><a href="">Shipping Information</a></p>
+                <p><a href="">Returns & Exchanges</a></p>
+                <p><a href="">Coupon Codes</a></p>
+                <p><a href="">F.A.Q.
+                </a></p>
+                <p><a href="">Terms & Conditions</a></p>
+                <p><a href="">Refund Policy</a></p>
+                <p><a href="">Privacy policy</a></p>
+                <p><a href="">Accessibility Statement</a></p>
+                <p><a href="">Customer Data Requests</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+</div>
+ 
+<div id="middle_frnakoak_logo">
+      <img src="./footer_images/frank-and-oak-logo.jpg" alt="">
+      <p>Frank & Oak</p>
+</div>
+
+
+
+   
 
 </summary>
 
-
- 
 
 </body>
 
