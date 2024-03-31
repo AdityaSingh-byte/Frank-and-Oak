@@ -1,0 +1,26 @@
+nav {
+    height: 50px;
+    padding: 20px;
+    border: 2px solid gray;
+    background-color: rgb(197, 168, 168);
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+  }
+  a {
+    font-size: 40px;
+  }
+  #cart-items {
+    border: 2px solid gray;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  #cart-items > div {
+    height: auto;
+    border: 2px solid rgb(70, 65, 65);
+    border-radius: 10px;
+
+    width: 500px;
+  }
+  
