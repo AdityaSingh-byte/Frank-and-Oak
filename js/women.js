@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/Data?Category=Women";
+const url = "https://frank-and-oak.onrender.com/Data?Category=Women";
 let mainContainer = document.getElementById('mainContainer');
 let XL = document.getElementById("huey");
 let L = document.getElementById('L');
@@ -8,6 +8,8 @@ let lowPrice = document.getElementById('low');
 let highPrice = document.getElementById('high');
 let midPrice = document.getElementById('Mid');
 let sortFilter = document.getElementById('Sprice');
+let corosol = document.getElementsByClassName("carousel-inner");
+let pagebtn = document.getElementById("btnLoadMore");
 //card creation function 
 function cardCreation(data){
 let cards = document.createElement("div");
@@ -36,9 +38,19 @@ image.addEventListener("mouseout", () => {
     image.src=data.Image;
 });
 //addTocart button event
-button.addEventListener("click",()=>{
-    
-}
+button.addEventListener("click", () => {
+    let cart = [];
+    if (localStorage.getItem("cart")!== null) {
+        cart = JSON.parse(localStorage.getItem("cart"));
+    }
+    let item = {
+        title: data.Title,
+        image: data.Image,
+        price: data.Price
+    };
+    cart.push(item);
+    localStorage.setItem("cart", JSON.stringify(cart));
+})
 
 //appending the data in div
 
@@ -50,41 +62,84 @@ async function fetchData(link,query){
 try{
     let res = await fetch(`${link}${query}`);
     let dat =await res.json();
-    console.log(dat.data);
+    console.log(dat);
+    //for pagination 
+    let TotalData = res.headers.get('X-Total-Count');
+    let limit = 40;
+    let totalPages = Math.ceil(TotalData/limit);
+    //to create button
+    pagebtn.innerHTML="";
+    for(let i=1;i<=totalPages;i++){
+        let btn = document.createElement("button");
+        btn.innerText=i;
+        
+        btn.addEventListener("click",()=>{
+           
+            fetchData(`${url}&_page=${i}&_limit=40`,query);
+        })
+        pagebtn.append(btn);
+
+    }
+    console.log(res.headers.get("X-Total-Count"))
     //creating elements from array and appending to main container
    
-    dat.data.forEach((item)=>{
+    dat.forEach((item)=>{
         mainContainer.append(cardCreation(item));
       
     })
 }catch(err){console.log(err)}
 }
-fetchData(url,"&_page=1&_per_page=40");
+fetchData(url,"&_page=1&_limit=20");
+
+// fetchData(url,"&_page=1&_per_page=40");
 
 //sorting functions 
 XL.addEventListener('click',()=>{
     mainContainer.innerHTML="";
-    fetchData(`${url}&_page=1&_per_page=40`,"&Size=XL")
+    fetchData(`${url}&_page=1&_limit=20`,"&Size=XL")
 })
 L.addEventListener('click',()=>{
     mainContainer.innerHTML="";
-    fetchData(`${url}&_page=1&_per_page=40`,"&Size=L")
+    fetchData(`${url}&_page=1&_limit=20`,"&Size=L")
 })
 M.addEventListener('click',()=>{
     mainContainer.innerHTML="";
-    fetchData(`${url}&_page=1&_per_page=40`,"&Size=M")
+    fetchData(`${url}&_page=1&_limit=20`,"&Size=M")
 })
 XS.addEventListener('click',()=>{
     mainContainer.innerHTML="";
-    fetchData(`${url}&_page=1&_per_page=40`,"&Size=XS")
+    fetchData(`${url}&_page=1&_limit=20`,"&Size=XS")
 })
 sortFilter.addEventListener('change',()=>{
     if(sortFilter.value=="lowTohigh"){
         mainContainer.innerHTML="";
-        fetchData(`${url}&_page=1&_per_page=40`,"&_sort=Price")
+        fetchData(`${url}&_page=1&_limit=20`,"&_sort=Price&_order=asc")
     }else {
         mainContainer.innerHTML="";
-        fetchData(`${url}&_page=1&_per_page=40`,"&_sort=-Price")
+        fetchData(`${url}&_page=1&_limit=20`,"&_sort=Price&_order=desc")
     }
 })
-//localstorage adding 
+
+
+
+// document.getElementById("prev").addEventListener("click", function () {
+//     let currentScroll = mainContainer.scrollLeft;
+//     let prevItem = mainContainer.querySelector(".carousel-item[data-index='" + (currentScroll / (window.innerWidth / 2)) + "']");
+//     if (prevItem) {
+//         mainContainer.scrollTo({
+//             left: prevItem.offsetLeft,
+//             behavior: "smooth"
+//         });
+//     }
+// });
+
+// document.getElementById("next").addEventListener("click", function () {
+//     let currentScroll = mainContainer.scrollLeft;
+//     let nextItem = mainContainer.querySelector(".carousel-item[data-index='" + ((currentScroll / (window.innerWidth / 2)) + 1) + "']");
+//     if (nextItem) {
+//         mainContainer.scrollTo({
+//             left: nextItem.offsetLeft,
+//             behavior: "smooth"
+//         });
+//     }
+// });
