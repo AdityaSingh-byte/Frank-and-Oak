@@ -97,6 +97,7 @@ body {
 
 /* nav design */
 nav {
+  position: sticky;
   display: flex;
   height: 10vh;
   justify-content: space-between;
@@ -384,10 +385,12 @@ nav ul li a i {
   justify-content: center;
   align-items: center;
 }
-.menWomenSection>div h1{
+
+.menWomenSection>div h1 {
   color: #fff;
   padding-left: 20px;
 }
+
 .menWomenSection>div:nth-child(1) .imgDiv {
   width: 90%;
   height: 60vh;
@@ -406,26 +409,29 @@ nav ul li a i {
 }
 
 
-#heading{
+#heading {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   color: #595959;
 }
-#heading ul{
+
+#heading ul {
   display: flex;
 }
-#heading ul li{
+
+#heading ul li {
   list-style: none;
   margin-right: 30px;
   font-size: 30px;
 }
-#heading ul li a{
+
+#heading ul li a {
   text-decoration: none;
   color: #595959;
 }
 
-.loading{
+.loading {
   background: #c1c1c1;
   min-height: 30px;
   position: relative;
@@ -433,7 +439,7 @@ nav ul li a i {
   padding: 0px 20px;
 }
 
-.loading::before{
+.loading::before {
   content: '';
   position: absolute;
   display: block;
@@ -444,11 +450,172 @@ nav ul li a i {
   animation: loading 1s infinite;
 }
 
-@keyframes loading{
-  100%{
+@keyframes loading {
+  100% {
     transform: translateX(100%);
   }
 }
+
+
+/* banner 1 design */
+.banner {
+  margin-top: 6vh;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner>div {
+  width: 48%;
+}
+
+.banner>div:nth-child(1) {
+  background-image: url("https://www.frankandoak.com/cdn/shop/files/imgcol_1_2160x.png?v=1711477991");
+  background-size: cover;
+}
+
+.banner>div:nth-child(2) {
+  background-color: #f4f8f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner>div:nth-child(2) .content {
+  width: 80%;
+  height: 80%;
+  /* background-color: red; */
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+.wrapper i{
+  top: 50%;
+  height: 44px;
+  width: 44px;
+  color: #343F4F;
+  cursor: pointer;
+  font-size: 1.15rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapper i:hover{
+  background: #f2f2f2;
+}
+.wrapper i:first-child{
+  left: -22px;
+  display: none;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+.carousel.dragging{
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.carousel.dragging img{
+  pointer-events: none;
+}
+.carousel img{
+  height: 340px;
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+.carousel img:first-child{
+  margin-left: 0px;
+}
+
+
+/*  banner 2 */
+
+.banner2 {
+  margin-top: 10vh;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.banner2>div {
+  width: 48%;
+}
+
+.banner2>div:nth-child(1) {
+  background-color: #f4f8f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner2>div:nth-child(1) .content {
+  width: 80%;
+  height: 80%;
+  /* background-color: red; */
+}
+
+.banner2>div:nth-child(2) {
+  background-image: url("https://www.frankandoak.com/cdn/shop/files/imgcol_39820b07-22a5-4480-97e5-4ec81703539d_2160x.jpg?v=1711478210");
+  background-size: cover;
+}
+
+/* cardCarousel design */
+.cardCarousel{
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 80vh;
+}
+
+.cardCarousel .card{
+  width: 300px;
+  height: 70vh;
+}
+
+.cardCarousel .card .img{
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+}
+
+.cardCarousel .card  p{
+  margin-top: 10px;
+  color: #343F4F;
+  font-size: 20px;
+}
+.cardCarousel .card button{
+  background-color: #ffffff;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  color: #343F4F;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
 
 
 
@@ -544,14 +711,15 @@ nav ul li a i {
   .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
     display: none;
   }
-  
+
   .main {
     height: 35vh;
   }
 
-  .mainfoter{
+  .mainfoter {
     height: 5vh;
   }
+
   .main h1 span {
     font-size: 100px;
     line-height: 60px;
@@ -565,26 +733,62 @@ nav ul li a i {
     margin-top: 40px;
     font-weight: 500;
   }
-  .menWomenSection{
+
+  .menWomenSection {
     flex-wrap: wrap;
   }
 
-  .menWomenSection>div{
+  .menWomenSection>div {
     width: 100%;
     height: 30vh;
   }
 
-  .menWomenSection>div:nth-child(1) .imgDiv{
+  .menWomenSection>div:nth-child(1) .imgDiv {
     height: 30vh;
   }
 
-  .menWomenSection>div:nth-child(2) .imgDiv{
+  .menWomenSection>div:nth-child(2) .imgDiv {
     height: 30vh;
+  }
+
+  .banner {
+    margin-top: 3vh;
+    width: 100%;
+    height: 60vh;
+  }
+
+  .banner>div {
+    width: 95%;
+  }
+
+  .banner2 {
+    margin-top: 5vh;
+    width: 100%;
+    height: 60vh;
+  }
+
+  .banner2>div {
+    width: 95%;
+  }
+
+  .carousel img{
+    width: 100%;
+  }
+
+  .cardCarousel{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 40vh;
+  }
+
+  .cardCarousel .card{
+    width: 300px;
+    height: 40vh;
   }
 
 }
-
-
 /* for tablet */
 
 @media screen and (min-width : 481px) and (max-width : 768px) {
@@ -680,9 +884,11 @@ nav ul li a i {
   .main {
     height: 40vh;
   }
-  .mainfoter{
+
+  .mainfoter {
     height: 6vh;
   }
+
   .main h1 span {
     font-size: 100px;
     line-height: 60px;
@@ -696,22 +902,60 @@ nav ul li a i {
     margin-top: 40px;
     font-weight: 500;
   }
-  
-  .menWomenSection{
+
+  .menWomenSection {
     flex-wrap: wrap;
   }
 
-  .menWomenSection>div{
+  .menWomenSection>div {
     width: 100%;
     height: 30vh;
   }
 
-  .menWomenSection>div:nth-child(1) .imgDiv{
+  .menWomenSection>div:nth-child(1) .imgDiv {
     height: 30vh;
   }
 
-  .menWomenSection>div:nth-child(2) .imgDiv{
+  .menWomenSection>div:nth-child(2) .imgDiv {
     height: 30vh;
   }
+
+  .banner {
+    margin-top: 3vh;
+    width: 100%;
+    height: 60vh;
+  }
+
+  .banner>div {
+    width: 95%;
+  }
+
+  .banner2 {
+    margin-top: 5vh;
+    width: 100%;
+    height: 60vh;
+  }
+
+  .banner2>div {
+    width: 95%;
+  }
+
+  .carousel img{
+    width: calc(100% / 2);
+  }
+  
+  .cardCarousel{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .cardCarousel .card{
+    width: 300px;
+    height: 40vh;
+  }
+
 
 }

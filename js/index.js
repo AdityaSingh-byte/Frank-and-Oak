@@ -85,6 +85,7 @@ mobile_nav.addEventListener("click", () => {
 
 setTimeout(()=>{
     fetchData();
+    fetchCardData()
 },2000);
 
 function fetchData(){
@@ -102,3 +103,142 @@ function fetchData(){
 }
 
 
+ // Carousel logic
+
+document.addEventListener("DOMContentLoaded", function() {
+    const carousels = document.querySelectorAll(".carousel");
+
+    carousels.forEach(function(carousel) {
+        const firstImg = carousel.querySelector("img"),
+              arrowIcons = carousel.parentElement.querySelectorAll("i");
+
+        let isDragStart = false,
+            isDragging = false,
+            prevPageX,
+            prevScrollLeft,
+            positionDiff;
+
+        const showHideIcons = () => {
+            let scrollWidth = carousel.scrollWidth - carousel.clientWidth;
+            arrowIcons[0].style.display = carousel.scrollLeft == 0 ? "none" : "block";
+            arrowIcons[1].style.display = carousel.scrollLeft == scrollWidth ? "none" : "block";
+        };
+
+        arrowIcons.forEach(icon => {
+            icon.addEventListener("click", () => {
+                let firstImgWidth = firstImg.clientWidth + 14;
+                const isPrev = icon.classList.contains('fa-angle-left');
+                carousel.scrollLeft += isPrev ? -firstImgWidth : firstImgWidth;
+                setTimeout(() => showHideIcons(), 60);
+            });
+        });
+
+        const autoSlide = () => {
+            if (carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) > -1 || carousel.scrollLeft <= 0) return;
+            positionDiff = Math.abs(positionDiff);
+            let firstImgWidth = firstImg.clientWidth + 14;
+            let valDifference = firstImgWidth - positionDiff;
+            if (carousel.scrollLeft > prevScrollLeft) {
+                return carousel.scrollLeft += positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
+            }
+            carousel.scrollLeft -= positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
+        };
+
+        const dragStart = (e) => {
+            isDragStart = true;
+            prevPageX = e.pageX || e.touches[0].pageX;
+            prevScrollLeft = carousel.scrollLeft;
+        };
+
+        const dragging = (e) => {
+            if (!isDragStart) return;
+            e.preventDefault();
+            isDragging = true;
+            carousel.classList.add("dragging");
+            positionDiff = (e.pageX || e.touches[0].pageX) - prevPageX;
+            carousel.scrollLeft = prevScrollLeft - positionDiff;
+            showHideIcons();
+        };
+
+        const dragStop = () => {
+            isDragStart = false;
+            carousel.classList.remove("dragging");
+            if (!isDragging) return;
+            isDragging = false;
+            autoSlide();
+        };
+
+        carousel.addEventListener("mousedown", dragStart);
+        carousel.addEventListener("touchstart", dragStart);
+        document.addEventListener("mousemove", dragging);
+        carousel.addEventListener("touchmove", dragging);
+        document.addEventListener("mouseup", dragStop);
+        carousel.addEventListener("touchend", dragStop);
+    });
+});
+
+
+
+
+
+let url = "https://frank-and-oak.onrender.com/Data";
+let cardCarousel = document.querySelector(".cardCarousel");
+
+async function fetchCardData() {
+    try {
+        let res = await fetch(`${url}`);
+        let data = await res.json();
+        console.log(data);
+        appendDataIntoDom(data); // Pass the fetched data to the appendDataIntoDom function
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+fetchCardData();
+
+function createCard(data) {
+    let card = document.createElement("div");
+    let imgDiv = document.createElement("div");
+    let button = document.createElement("button");
+    let h5 = document.createElement("h5");
+    let p1 = document.createElement("p");
+    let p2 = document.createElement("p");
+    let heartIcon = document.createElement("i");
+
+    card.classList.add("card");
+    imgDiv.classList.add("img");
+    imgDiv.style.backgroundImage = `url('${data.Image}')`;
+    imgDiv.addEventListener("mouseover", () => {
+        imgDiv.style.backgroundImage = `url('${data.Hover_image}')`;
+    });
+    imgDiv.addEventListener("mouseleave", () => {
+        imgDiv.style.backgroundImage = `url('${data.Image}')`;
+    });
+
+    button.innerText = "Quick Add";
+    h5.innerText = data["product-badge"];
+    p2.innerText = data.Price;
+
+    p1.innerText = data.Title;
+    heartIcon.classList.add("fa-regular", "fa-heart");
+    p1.appendChild(heartIcon);
+
+    imgDiv.append(button, h5);
+    card.append(imgDiv, p1, p2);
+
+    return card;
+}
+
+
+function appendDataIntoDom(data, numberOfCards) {
+    cardCarousel.innerHTML = "";
+
+    let numberOfCardsToAppend = numberOfCards || 16;
+
+    for (let i = 0; i < numberOfCardsToAppend && i < data.length; i++) {
+        let card = createCard(data[i]);
+        cardCarousel.appendChild(card);
+    }
+
+}
