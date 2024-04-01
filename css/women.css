@@ -1,6 +1,65 @@
 #sidebar{
+    height: 70vh;
     position: sticky;
-    top: 100px;
-    overflow: scroll;
+    
+    overflow-y: scroll;
     width: 300px;
+}
+
+@media (min-width: 1320px) {
+    .container {
+      width: 1320px;
+      margin:auto;
+  }
+}
+#body{
+    display: flex;
+    gap: 20px;
+}
+#mainContainer{
+    margin-left: 100px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.card_list{
+    
+    width: 300px;
+}
+.p_img{
+    width: 100%;
+}
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
 }

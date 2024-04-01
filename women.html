@@ -20,122 +20,149 @@
       <div id="shopAll">
         <a href="index.html">Home/Women</a>
         <p>Shop All</p>
+        <select name="price" id="Sprice">
+          <option value="Default">Filter by Price</option>
+          <option value="lowTohigh">Low-To-High</option>
+          <option value="HighToLow">High-To-Low</option>
+        </select>
       </div>
     </div>
-    <div id="sidebar">
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
+    <div id="body">
+      <div id="sidebar">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Size
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
             >
-              Size
-            </button>
-          </h2>
-          <div
-            id="collapseOne"
-            class="accordion-collapse collapse show"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <div>
-                <input
-                  type="radio"
-                  id="huey"
-                  name="drone"
-                  value="huey"
-                  checked
-                />
-                <label for="huey">XL</label>
-              </div>
-              <div>
-                <input type="radio" id="L" name="drone" value="L" />
-                <label for="L">L</label>
-              </div>
-              <div>
-                <input type="radio" id="dewey" name="drone" value="dewey" />
-                <label for="dewey">XS</label>
-              </div>
+              <div class="accordion-body">
+                <div>
+                  <input
+                    type="radio"
+                    id="huey"
+                    name="drone"
+                    value="huey"
+                    checked
+                  />
+                  <label for="huey">XL</label>
+                </div>
+                <div>
+                  <input type="radio" id="L" name="drone" value="L" />
+                  <label for="L">L</label>
+                </div>
+                <div>
+                  <input type="radio" id="dewey" name="drone" value="dewey" />
+                  <label for="dewey">XS</label>
+                </div>
 
-              <div>
-                <input type="radio" id="louie" name="drone" value="louie" />
-                <label for="louie">M</label>
+                <div>
+                  <input type="radio" id="louie" name="drone" value="louie" />
+                  <label for="louie">M</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Price
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div>
+                  <input
+                    type="radio"
+                    id="low"
+                    name="price"
+                    value="low"
+                    checked
+                  />
+                  <label for="low">$0-$100</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="Mid" name="price" value="Mid" />
+                  <label for="mid">$100-$250</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="high" name="price" value="high" />
+                  <label for="high">$250-$500</label>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button
-              class="accordion-button collapsed"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              Price
-            </button>
-          </h2>
-          <div
-            id="collapseTwo"
-            class="accordion-collapse collapse"
-            data-bs-parent="#accordionExample"
-          >
-            <div class="accordion-body">
-              <div>
-                <input type="radio" id="low" name="price" value="low" checked />
-                <label for="low">$0-$100</label>
-              </div>
-
-              <div>
-                <input type="radio" id="Mid" name="price" value="Mid" />
-                <label for="mid">$100-$250</label>
-              </div>
-
-              <div>
-                <input type="radio" id="high" name="price" value="high" />
-                <label for="high">$250-$500</label>
-              </div>
-            </div>
-          </div>
+        <div id="featured">
+          <h3>Featured</h3>
+          <p>New In</p>
+          <p>Best Sellers</p>
+          <p>Skyline</p>
+          <p>The Original</p>
+          <p>Workwear</p>
+          <p>Best of Instagram</p>
+          <p>Sale</p>
+        </div>
+        <div id="Clothing">
+          <h3>Clothing</h3>
+          <a href="">Shop All</a>
+          <p>T-shirts & Tops</p>
+          <p>Blouses & Shirts</p>
+          <p>Sweaters & Cardigans</p>
+          <p>Jackets & Coasts</p>
+          <p>Dresses & Jumpsuits</p>
+          <p>Skirts & Shorts</p>
+          <p>Denim</p>
+          <p>Pants</p>
+        </div>
+        <div id="Accessories">
+          <p>Shop All</p>
+          <p>Beanies & Caps</p>
+          <p>Shoes & Boots</p>
+          <p>Bags</p>
         </div>
       </div>
-      <div id="featured">
-        <h3>Featured</h3>
-        <p>New In</p>
-        <p>Best Sellers</p>
-        <p>Skyline</p>
-        <p>The Original</p>
-        <p>Workwear</p>
-        <p>Best of Instagram</p>
-        <p>Sale</p>
-      </div>
-      <div id="Clothing">
-        <h3>Clothing</h3>
-        <a href="">Shop All</a>
-        <p>T-shirts & Tops</p>
-        <p>Blouses & Shirts</p>
-        <p>Sweaters & Cardigans</p>
-        <p>Jackets & Coasts</p>
-        <p>Dresses & Jumpsuits</p>
-        <p>Skirts & Shorts</p>
-        <p>Denim</p>
-        <p>Pants</p>
-      </div>
-      <div id="Accessories">
-        <p>Shop All</p>
-        <p>Beanies & Caps</p>
-        <p>Shoes & Boots</p>
-        <p>Bags</p>
-      </div>
+
+      <div id="mainContainer"></div>
     </div>
-    <div id="mainContainer"></div>
+    <div id="btnLoadMore"></div>
+
+    <div class="carousel">
+      <div class="carousel-inner">
+        <!-- The carousel items will be generated dynamically here -->
+      </div>
+      <button
+        class="carousel-arrow prev"
+        id="prev"
+        aria-label="Previous"
+      ></button>
+      <button class="carousel-arrow next" id="next" aria-label="Next"></button>
+    </div>
   </body>
   <script src="js/women.js"></script>
   <script
