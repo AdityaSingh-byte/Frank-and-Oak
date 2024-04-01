@@ -85,7 +85,6 @@ mobile_nav.addEventListener("click", () => {
 
 setTimeout(()=>{
     fetchData();
-    fetchCardData()
 },2000);
 
 function fetchData(){
@@ -195,6 +194,7 @@ async function fetchCardData() {
     }
 }
 
+
 fetchCardData();
 
 function createCard(data) {
@@ -206,8 +206,13 @@ function createCard(data) {
     let p2 = document.createElement("p");
     let heartIcon = document.createElement("i");
 
+    imgDiv.classList.add("img", "loading");
+    p1.classList.add("loading");
+    p2.classList.add("loading");
+
     card.classList.add("card");
-    imgDiv.classList.add("img");
+  
+
     imgDiv.style.backgroundImage = `url('${data.Image}')`;
     imgDiv.addEventListener("mouseover", () => {
         imgDiv.style.backgroundImage = `url('${data.Hover_image}')`;
@@ -224,6 +229,11 @@ function createCard(data) {
     heartIcon.classList.add("fa-regular", "fa-heart");
     p1.appendChild(heartIcon);
 
+    setTimeout(() => {
+        imgDiv.classList.remove("loading");
+        p1.classList.remove("loading");
+        p2.classList.remove("loading");
+    }, 1000); 
     imgDiv.append(button, h5);
     card.append(imgDiv, p1, p2);
 
