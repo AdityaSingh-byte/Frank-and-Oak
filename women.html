@@ -42,6 +42,99 @@
       <span class="material-symbols-outlined"> favorite </span>
       <span class="material-symbols-outlined"> shopping_bag </span>
     </div>
+    <!-- login  -->
+    <div
+      class="modal fade"
+      id="signInModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 modal_head" id="exampleModalLabel">
+              Welcome back.
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="signInBtns">
+              <div id="google">
+                <button class="btn button">
+                  <i class="fa-brands fa-google me-3"></i> Sign in with Google
+                </button>
+              </div>
+              <div class="vl"></div>
+
+              <div id="signInForm">
+                <form>
+                  <div class="mb-3">
+                    <label for="user_email" class="form-label"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="user_email"
+                      aria-describedby="emailHelp"
+                    />
+                    <div id="emailHelp" class="form-text">
+                      We'll never share your email with anyone else.
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="user_pwd" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="user_pwd" />
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn btn-outline-secondary"
+                    id="submit_btn"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="modal_footer">
+              <div>
+                <p>
+                  No account ?
+                  <a
+                    href="#"
+                    id="signUp"
+                    data-bs-toggle="modal"
+                    data-bs-target="#signUpModal"
+                    >Create One</a
+                  >
+                </p>
+              </div>
+              <div>
+                <p class="grey">
+                  Forgot email or trouble signing in?
+                  <a href="#" class="grey">Get help.</a>
+                </p>
+              </div>
+              <div class="grey">
+                Click “Sign in” to agree to Medium’s
+                <a href="#" class="grey">Terms of Service</a> and acknowledge
+                that <br />
+                Medium’s
+                <a href="#" class="grey">Privacy Policy</a>
+                applies to you.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- sidebar -->
     <div id="top">
       <div id="shopAll">

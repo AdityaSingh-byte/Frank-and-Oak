@@ -30,7 +30,7 @@ button.classList.add("add_to_cart");
 //setting the data 
 image.src=data.Image;
 title.textContent=`${data.Title}`;
-price.textContent=`$ ${data.Price}`;
+price.textContent=`$${data.Price}`;
 button.textContent="Quick Add";
 button.style.display = "none";
 //hover functionality 
