@@ -99,6 +99,7 @@
 #featured,#Clothing,#Accessories{
     padding: 10px 10px 10px 10px;
     font-size: 14px;
+    margin-left: 10px;
 }
 #Clothing{
     >a{
@@ -106,6 +107,10 @@
         color: black;
         padding-bottom: 10px;
     }
+}
+/* filter by price  */
+#Sprice{
+  border: none;
 }
 #navBar{
     display: flex;
@@ -229,4 +234,12 @@ input[type="radio"] {
     >h2{
     margin-left: 20px;
   }
+  }
+ 
+  /* side bar css */
+  .lable{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 1cqi;
   }
