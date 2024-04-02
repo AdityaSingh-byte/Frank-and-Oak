@@ -52,13 +52,14 @@ cards.addEventListener("mouseover", function () {
 cards.addEventListener("mouseout", function () {
     button.style.display = "none";
 });
+let i =0 ;
 //addTocart button event
 button.addEventListener('click', () => {
     let CartData = [];
     if (localStorage.getItem("CartData")!== null) {
         CartData = JSON.parse(localStorage.getItem("CartData"));
     }
-    let i =0 ;
+   
     let flag = false;
     CartData.forEach(ele => {
         if (ele.ID === data.ID) {

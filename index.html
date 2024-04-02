@@ -1,325 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fank And Oak</title>
-    <link rel="icon" type="image/png" sizes="32x32"
-        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAANlBMVEUAAAAAAAAAAAAAAABHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6yzCRAAAAEnRSTlPp9v8sAPI6GAm3YXjZjU/QxKksh/VgAAAAtUlEQVR4AX3RRQLDMAxEUSsaM9//sm1YSuFvAi9gMIbuFgaTyNhF5ODl9ROD+YOI/zD9RIb6rkLyAPIPNCuifMeCNaavGLHl6BtW7HH5gg1nuTyRPO5cqlVixxq31I6nJGYAbqxndvonslgBchqHWljyCpveryixry/KvEAHTIXtxglgKMwXmgAgKkwXMt5VhfxGsaoszWDFy/SI2o7EOApFbZ+hZQbg0ijWGSYyVFxHj3l//gWDPAoyA1tlWQAAAABJRU5ErkJggg==">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAANlBMVEUAAAAAAAAAAAAAAABHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6yzCRAAAAEnRSTlPp9v8sAPI6GAm3YXjZjU/QxKksh/VgAAAAtUlEQVR4AX3RRQLDMAxEUSsaM9//sm1YSuFvAi9gMIbuFgaTyNhF5ODl9ROD+YOI/zD9RIb6rkLyAPIPNCuifMeCNaavGLHl6BtW7HH5gg1nuTyRPO5cqlVixxq31I6nJGYAbqxndvonslgBchqHWljyCpveryixry/KvEAHTIXtxglgKMwXmgAgKkwXMt5VhfxGsaoszWDFy/SI2o7EOApFbZ+hZQbg0ijWGSYyVFxHj3l//gWDPAoyA1tlWQAAAABJRU5ErkJggg=="
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footer.css" />
     <!-- Font Awosonme Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- google font links -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google font links -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!-- start header section -->
     <div class="container navbar">
-        <div class="header">
-
-            <div class="text">
-                <div id="carousel-container">
-                    <div id="carousel-items">
-                        <div class="carousel-item">
-                            <p>New in— Discover elevated simplicity for the season ahead. <a href="#">Shop Women</a> <a
-                                    href="#">Shop Men</a></p>
-                        </div>
-                        <div class="carousel-item">
-                            <p>Giveaway! Win your $2,000 wishlist Enter now</p>
-                        </div>
-                        <div class="carousel-item">
-                            <p>Enjoy free shipping on orders over $79 and free returns</p>
-                        </div>
-                    </div>
-                    <a class="prev" onclick="moveCarousel('prev')">&#10094;</a>
-                    <a class="next" onclick="moveCarousel('next')">&#10095;</a>
-                </div>
+      <div class="header">
+        <div class="text">
+          <div id="carousel-container">
+            <div id="carousel-items">
+              <div class="carousel-item">
+                <p>
+                  New in— Discover elevated simplicity for the season ahead.
+                  <a href="#">Shop Women</a> <a href="#">Shop Men</a>
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p>Giveaway! Win your $2,000 wishlist Enter now</p>
+              </div>
+              <div class="carousel-item">
+                <p>Enjoy free shipping on orders over $79 and free returns</p>
+              </div>
             </div>
-
-            <div class="flag">
-                <img src="https://flagpedia.net/data/flags/w580/us.webp" alt="USD">
-                <h4>$ USD</h4>
-                <i class="fa-solid fa-angle-down"></i>
-            </div>
+            <a class="prev" onclick="moveCarousel('prev')">&#10094;</a>
+            <a class="next" onclick="moveCarousel('next')">&#10095;</a>
+          </div>
         </div>
 
-    <!-- end header section -->
+        <div class="flag">
+          <img src="https://flagpedia.net/data/flags/w580/us.webp" alt="USD" />
+          <h4>$ USD</h4>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+      </div>
 
-    <!-- start navbar  -->
-        <!-- <div class="mobile-navbar-btn">
-            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
-            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
-        </div> -->
-        <nav>
-            <div class="mobile-navbar-btn">
-                <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
-                <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
-            </div>
-            <img src="images/logo.png" alt="">
-            <div class="menu-item">
-                <ul>
-                    <li><a href="#" id="women">Women</a></li>
-                    <li><a href="#" id="men">Men</a></li>
-                    <li><a href="#" class="sale" id="sales">Sale</a></li>
-                    <li><a href="#" id="ourStory">Our Story</a></li>
-                </ul>
-            </div>
-            <div class="menu-icon">
-                <ul>
-                    <li><a href="#">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </a></li>
-                    <li><a href="#">
-                        <span class="material-symbols-outlined" data-bs-toggle="modal" data-bs-target="#signInModal">
-                            account_circle
-                            </span>
-                        </a></li>
-                    <li><a href="#">
-                        <i class="fa-regular fa-heart"></i>
-                        </a></li>
-                    <li><a href="#">
-                        <span class="material-symbols-outlined">
-                            shopping_bag
-                            </span>
-                        </a></li>
-                </ul>
-            </div>
-        </nav>
+      <!-- end header section -->
+      <!-- login page  -->
+
+      <!-- start navbar  -->
+
+      <nav>
+        <div class="mobile-navbar-btn">
+          <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+          <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+        <img src="images/logo.png" alt="" id="logoImg" />
+        <div class="menu-item">
+          <ul>
+            <li><a href="#" id="women">Women</a></li>
+            <li><a href="#" id="men">Men</a></li>
+            <li><a href="#" class="sale" id="sales">Sale</a></li>
+            <li><a href="#" id="ourStory">Our Story</a></li>
+          </ul>
+        </div>
+        <div class="menu-icon">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span
+                  class="material-symbols-outlined"
+                  data-bs-toggle="modal"
+                  data-bs-target="#signInModal"
+                >
+                  account_circle
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="material-symbols-outlined"> shopping_bag </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
     <!-- end navbar -->
-
 
     <!-- start dropdown menu men and women -->
 
     <div class="container">
-        <div class="dropDown">
-            <div>
-                <p><a href="#">Featured</a></p>
-                <br>
-                <ul>
-                    <li><a href="#">New In</a></li>
-                    <li><a href="#">Best Sellers</a></li>
-                    <li><a href="#">Skyline</a></li>
-                    <li><a href="#">The Originals</a></li>
-                    <li><a href="#">Workwear</a></li>
-                    <li><a href="#">Best of Instagram</a></li>
-                    <li><a href="#">Gift Cards</a></li>
-                    <li><a href="#" class="sale">Sale</a></li>
-                </ul>
-            </div>
-            <div>
-                <p><a href="#">Clothing</a></p>
-                <br>
-                <ul>
-                    <li><a href="#">Shop All</a></li>
-                    <li><a href="#">T-shirts &amp; Tops</a></li>
-                    <li><a href="#">Sweaters &amp; Cardigans</a></li>
-                    <li><a href="#">Blazers &amp; Overshirts</a></li>
-                    <li><a href="#">Jackets &amp; Coats</a></li>
-                    <li><a href="#">Dresses &amp; Jumpsuits</a></li>
-                    <li><a href="#">Skirts &amp; Shorts</a></li>
-                    <li><a href="#">Denim</a></li>
-                    <li><a href="#">Pants</a></li>
-                </ul>
-            </div>
-            <div>
-                <p><a href="#">Accessories</a></p>
-                <br>
-                <ul>
-                    <li><a href="#">Shop All</a></li>
-                    <li><a href="#">Beanies &amp; Caps</a></li>
-                    <li><a href="#">Shoes &amp; Boots</a></li>
-                    <li><a href="#">Bags</a></li>
-                </ul>
-            </div>
-            <div style="position: relative;">
-                <img src="https://www.frankandoak.com/cdn/shop/files/MENU-TILE_MW_Shirts_600x.jpg?v=1707922485"
-                    alt="Shirt">
-                <div
-                    style="position: absolute; left: 25%; bottom: 20%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
-                    <h2>Shirts</h2>
-                </div>
-            </div>
-            <div style="position: relative;">
-                <img src="https://www.frankandoak.com/cdn/shop/files/MENU-TILE_WW_Denim_600x.jpg?v=1707922520" alt="">
-                <div
-                    style="position: absolute; left: 25%; bottom: 20%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
-                    <h2>Denim</h2>
-                </div>
-            </div>
+      <div class="dropDown">
+        <div>
+          <p><a href="#">Featured</a></p>
+          <br />
+          <ul>
+            <li><a href="#">New In</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Skyline</a></li>
+            <li><a href="#">The Originals</a></li>
+            <li><a href="#">Workwear</a></li>
+            <li><a href="#">Best of Instagram</a></li>
+            <li><a href="#">Gift Cards</a></li>
+            <li><a href="#" class="sale">Sale</a></li>
+          </ul>
         </div>
+        <div>
+          <p><a href="#">Clothing</a></p>
+          <br />
+          <ul>
+            <li><a href="#">Shop All</a></li>
+            <li><a href="#">T-shirts &amp; Tops</a></li>
+            <li><a href="#">Sweaters &amp; Cardigans</a></li>
+            <li><a href="#">Blazers &amp; Overshirts</a></li>
+            <li><a href="#">Jackets &amp; Coats</a></li>
+            <li><a href="#">Dresses &amp; Jumpsuits</a></li>
+            <li><a href="#">Skirts &amp; Shorts</a></li>
+            <li><a href="#">Denim</a></li>
+            <li><a href="#">Pants</a></li>
+          </ul>
+        </div>
+        <div>
+          <p><a href="#">Accessories</a></p>
+          <br />
+          <ul>
+            <li><a href="#">Shop All</a></li>
+            <li><a href="#">Beanies &amp; Caps</a></li>
+            <li><a href="#">Shoes &amp; Boots</a></li>
+            <li><a href="#">Bags</a></li>
+          </ul>
+        </div>
+        <div style="position: relative">
+          <img
+            src="https://www.frankandoak.com/cdn/shop/files/MENU-TILE_MW_Shirts_600x.jpg?v=1707922485"
+            alt="Shirt"
+          />
+          <div
+            style="
+              position: absolute;
+              left: 25%;
+              bottom: 20%;
+              transform: translate(-50%, -50%);
+              color: #ffffff;
+              padding: 10px;
+            "
+          >
+            <h2>Shirts</h2>
+          </div>
+        </div>
+        <div style="position: relative">
+          <img
+            src="https://www.frankandoak.com/cdn/shop/files/MENU-TILE_WW_Denim_600x.jpg?v=1707922520"
+            alt=""
+          />
+          <div
+            style="
+              position: absolute;
+              left: 25%;
+              bottom: 20%;
+              transform: translate(-50%, -50%);
+              color: #ffffff;
+              padding: 10px;
+            "
+          >
+            <h2>Denim</h2>
+          </div>
+        </div>
+      </div>
     </div>
-
 
     <!-- sales drop down -->
     <div class="container">
-        <div class="salesDropDown">
-            <div>
-                <p><a href="#">Women's Sale
-                    </a></p>
-                <br>
-                <ul>
-                    <li><a href="#">Shop All</a></li>
-                    <li><a href="#">Jackets &amp; Coats</a></li>
-                    <li><a href="#">Sweaters</a></li>
-                    <li><a href="#">Dresses</a></li>
-                    <li><a href="#">Workwear</a></li>
-                    <li><a href="#">Skirts</a></li>
-                    <li><a href="#">Pants</a></li>
-                </ul>
-            </div>
-            <div>
-                <p><a href="#">Men's Sale
-                    </a></p>
-                <br>
-                <ul>
-                    <li><a href="#">Shop All</a></li>
-                    <li><a href="#">Sweaters &amp; Cardigans</a></li>
-                    <li><a href="#">Blazers &amp; Overshirts</a></li>
-                    <li><a href="#">Jackets &amp; Coats</a></li>
-                    <li><a href="#">Pants</a></li>
-                </ul>
-            </div>
-            <div style="position: relative;">
-                <img src="https://www.frankandoak.com/cdn/shop/files/womenswear_sale_600x.jpg?v=1700592949" alt="Shirt">
-                <div
-                    style="position: absolute; left: 30%; bottom: 20%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
-                    <h2>Women's Sales</h2>
-                </div>
-            </div>
-            <div style="position: relative;">
-                <img src="https://www.frankandoak.com/cdn/shop/files/Tile_desktop_2e4a544c-ea66-41d0-bec7-ad7308c8fb06_600x.jpg?v=1700597132"
-                    alt="">
-                <div
-                    style="position: absolute; left: 30%; bottom: 20%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
-                    <h2>Men's Sales</h2>
-                </div>
-            </div>
+      <div class="salesDropDown">
+        <div>
+          <p><a href="#">Women's Sale </a></p>
+          <br />
+          <ul>
+            <li><a href="#">Shop All</a></li>
+            <li><a href="#">Jackets &amp; Coats</a></li>
+            <li><a href="#">Sweaters</a></li>
+            <li><a href="#">Dresses</a></li>
+            <li><a href="#">Workwear</a></li>
+            <li><a href="#">Skirts</a></li>
+            <li><a href="#">Pants</a></li>
+          </ul>
         </div>
+        <div>
+          <p><a href="#">Men's Sale </a></p>
+          <br />
+          <ul>
+            <li><a href="#">Shop All</a></li>
+            <li><a href="#">Sweaters &amp; Cardigans</a></li>
+            <li><a href="#">Blazers &amp; Overshirts</a></li>
+            <li><a href="#">Jackets &amp; Coats</a></li>
+            <li><a href="#">Pants</a></li>
+          </ul>
+        </div>
+        <div style="position: relative">
+          <img
+            src="https://www.frankandoak.com/cdn/shop/files/womenswear_sale_600x.jpg?v=1700592949"
+            alt="Shirt"
+          />
+          <div
+            style="
+              position: absolute;
+              left: 30%;
+              bottom: 20%;
+              transform: translate(-50%, -50%);
+              color: #ffffff;
+              padding: 10px;
+            "
+          >
+            <h2>Women's Sales</h2>
+          </div>
+        </div>
+        <div style="position: relative">
+          <img
+            src="https://www.frankandoak.com/cdn/shop/files/Tile_desktop_2e4a544c-ea66-41d0-bec7-ad7308c8fb06_600x.jpg?v=1700597132"
+            alt=""
+          />
+          <div
+            style="
+              position: absolute;
+              left: 30%;
+              bottom: 20%;
+              transform: translate(-50%, -50%);
+              color: #ffffff;
+              padding: 10px;
+            "
+          >
+            <h2>Men's Sales</h2>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Our Story dropdown -->
     <div class="container">
-        <div class="ourStoryDropDown">
-            <div style="position: relative;">
-                <img src="https://www.frankandoak.com/cdn/shop/files/int-nav-who-v2-1_600x.jpg?v=1638388533"
-                    alt="Shirt">
-                <div
-                    style="position: absolute; left: 50%; bottom: 4%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
-                    <h2>Who we are</h2>
-                </div>
-            </div>
-            <div style="position: relative;">
-                <img src="https://www.frankandoak.com/cdn/shop/files/int-nav-sustainable-v2-2_600x.jpg?v=1638546562"
-                    alt="">
-                <div
-                    style="position: absolute; left: 50%; bottom: 4%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
-                    <h2>Sustainable Practice</h2>
-                </div>
-            </div>
-            <div style="position: relative;">
-                <img src="https://www.frankandoak.com/cdn/shop/files/int-nav-phil-v2-1_600x.jpg?v=1638388534"
-                    alt="Shirt">
-                <div
-                    style="position: absolute; left: 50%; bottom: 4%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
-                    <h2>Design Philosophy</h2>
-                </div>
-            </div>
-            <div style="position: relative;">
-                <img src="https://www.frankandoak.com/cdn/shop/files/int-nav-fabrics-v2-1_600x.jpg?v=1638388534" alt="">
-                <div
-                    style="position: absolute; left: 50%; bottom: 20%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
-                    <h2>Fabrices</h2>
-                </div>
-            </div>
-            <div style="position: relative;">
-                <img src="https://www.frankandoak.com/cdn/shop/files/denim-nav-tile-2_600x.jpg?v=1646854009"
-                    alt="Shirt">
-                <div
-                    style="position: absolute; left: 50%; bottom: 4%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
-                    <h2>Circuler Denim</h2>
-                </div>
-            </div>
-            <div style="position: relative;">
-                <img src="https://www.frankandoak.com/cdn/shop/files/factories-tile-v2_600x.jpg?v=1676905938" alt="">
-                <div
-                    style="position: absolute; left: 50%; bottom: 4%; transform: translate(-50%, -50%); color: #ffffff; padding: 10px;">
-                    <h2>Partner's Fabrices</h2>
-                </div>
-            </div>
+      <div class="ourStoryDropDown">
+        <div style="position: relative">
+          <img
+            src="https://www.frankandoak.com/cdn/shop/files/int-nav-who-v2-1_600x.jpg?v=1638388533"
+            alt="Shirt"
+          />
+          <div
+            style="
+              position: absolute;
+              left: 50%;
+              bottom: 4%;
+              transform: translate(-50%, -50%);
+              color: #ffffff;
+              padding: 10px;
+            "
+          >
+            <h2>Who we are</h2>
+          </div>
         </div>
+        <div style="position: relative">
+          <img
+            src="https://www.frankandoak.com/cdn/shop/files/int-nav-sustainable-v2-2_600x.jpg?v=1638546562"
+            alt=""
+          />
+          <div
+            style="
+              position: absolute;
+              left: 50%;
+              bottom: 4%;
+              transform: translate(-50%, -50%);
+              color: #ffffff;
+              padding: 10px;
+            "
+          >
+            <h2>Sustainable Practice</h2>
+          </div>
+        </div>
+        <div style="position: relative">
+          <img
+            src="https://www.frankandoak.com/cdn/shop/files/int-nav-phil-v2-1_600x.jpg?v=1638388534"
+            alt="Shirt"
+          />
+          <div
+            style="
+              position: absolute;
+              left: 50%;
+              bottom: 4%;
+              transform: translate(-50%, -50%);
+              color: #ffffff;
+              padding: 10px;
+            "
+          >
+            <h2>Design Philosophy</h2>
+          </div>
+        </div>
+        <div style="position: relative">
+          <img
+            src="https://www.frankandoak.com/cdn/shop/files/int-nav-fabrics-v2-1_600x.jpg?v=1638388534"
+            alt=""
+          />
+          <div
+            style="
+              position: absolute;
+              left: 50%;
+              bottom: 20%;
+              transform: translate(-50%, -50%);
+              color: #ffffff;
+              padding: 10px;
+            "
+          >
+            <h2>Fabrices</h2>
+          </div>
+        </div>
+        <div style="position: relative">
+          <img
+            src="https://www.frankandoak.com/cdn/shop/files/denim-nav-tile-2_600x.jpg?v=1646854009"
+            alt="Shirt"
+          />
+          <div
+            style="
+              position: absolute;
+              left: 50%;
+              bottom: 4%;
+              transform: translate(-50%, -50%);
+              color: #ffffff;
+              padding: 10px;
+            "
+          >
+            <h2>Circuler Denim</h2>
+          </div>
+        </div>
+        <div style="position: relative">
+          <img
+            src="https://www.frankandoak.com/cdn/shop/files/factories-tile-v2_600x.jpg?v=1676905938"
+            alt=""
+          />
+          <div
+            style="
+              position: absolute;
+              left: 50%;
+              bottom: 4%;
+              transform: translate(-50%, -50%);
+              color: #ffffff;
+              padding: 10px;
+            "
+          >
+            <h2>Partner's Fabrices</h2>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- login and sign up  -->
 
     <!-- Start main section -->
 
     <div class="container">
-        <div class="main">
-            <h1>
-                <span>
-                    THE <br>
-                    SPRING <br>
-                    SALE <br>
-                </span>
-                25% OFF<br>
-                EVERYTHING*
-            </h1>
+      <div class="main">
+        <h1>
+          <span>
+            THE <br />
+            SPRING <br />
+            SALE <br />
+          </span>
+          25% OFF<br />
+          EVERYTHING*
+        </h1>
 
-            <div>
-                <button>Women</button>
-                <button>Men</button>
-            </div>
+        <div>
+          <button>Women</button>
+          <button>Men</button>
         </div>
+      </div>
     </div>
 
     <div class="container">
-        <div class="mainfoter">
-            <ul>
-                <li> <i class="fa-solid fa-car"></i> Free Shipping over $79</li>
-                <li> <i class="fa-solid fa-rotate-right"></i> Free Returns</li>
-                <li> <i class="fa-solid fa-window-maximize"></i> Earn Points</li>
-                <li> <i class="fa-solid fa-weight-scale"></i> Buy Now, Pay Later</li>
-            </ul>
-        </div>
+      <div class="mainfoter">
+        <ul>
+          <li><i class="fa-solid fa-car"></i> Free Shipping over $79</li>
+          <li><i class="fa-solid fa-rotate-right"></i> Free Returns</li>
+          <li><i class="fa-solid fa-window-maximize"></i> Earn Points</li>
+          <li><i class="fa-solid fa-weight-scale"></i> Buy Now, Pay Later</li>
+        </ul>
+      </div>
     </div>
 
     <div class="container menWomenSection">
-        <div>
-            <div class="imgDiv" style="background-image: url('https://www.frankandoak.com/cdn/shop/files/default_old_23e0f163-2675-413b-9d04-b0968403cd91_2160x.png?v=1710798220');">
-                <h1>Women</h1>
-            </div>
+      <div>
+        <div
+          class="imgDiv"
+          style="
+            background-image: url('https://www.frankandoak.com/cdn/shop/files/default_old_23e0f163-2675-413b-9d04-b0968403cd91_2160x.png?v=1710798220');
+          "
+        >
+          <h1>Women</h1>
         </div>
-        <div>
-            <div class="imgDiv" style="background-image: url('https://www.frankandoak.com/cdn/shop/files/default_old_1291f909-ac32-4200-9b98-c8d785a3de91_2160x.png?v=1710798383');">
-                <h1>Men</h1>
-            </div>
-
+      </div>
+      <div>
+        <div
+          class="imgDiv"
+          style="
+            background-image: url('https://www.frankandoak.com/cdn/shop/files/default_old_1291f909-ac32-4200-9b98-c8d785a3de91_2160x.png?v=1710798383');
+          "
+        >
+          <h1>Men</h1>
         </div>
+      </div>
     </div>
-
 
     <!-- carousel -->
 
     <div class="container">
-        <div id="heading">
-            <h2 class="loading h2"></h2>
-            <ul>
-                <li class="loading li1"><a href="#" ></a></li>
-                <li class="loading li2"><a href="#" ></a></li>
-            </ul>
-        </div>
+      <div id="heading">
+        <h2 class="loading h2"></h2>
+        <ul>
+          <li class="loading li1"><a href="#"></a></li>
+          <li class="loading li2"><a href="#"></a></li>
+        </ul>
+      </div>
     </div>
 
     <div class="container cardCarousel">
-
-            <!-- <div class="card">
+      <!-- <div class="card">
                 <div class="img">
                     <button>Quick Add</button>
                 </div>
@@ -327,349 +456,463 @@
                 <p>Color</p>
             </div> -->
 
-            <i class="fa-solid fa-arrow-left" id="previus"></i>
-            <i class="fa-solid fa-arrow-right" id="after"></i>
+      <i class="fa-solid fa-arrow-left" id="previus"></i>
+      <i class="fa-solid fa-arrow-right" id="after"></i>
     </div>
-
 
     <!-- JSON Carousel cart remaining -->
 
+    <div class="container">
+      <div class="banner">
+        <div></div>
+        <div>
+          <div class="content">
+            <h2>Effortless layering</h2>
+            <p>
+              Set up Spring with new styles that promote versatility and
+              self-expression.
+            </p>
 
+            <div class="wrapper">
+              <i id="left" class="fa-solid fa-angle-left"></i>
+              <div class="carousel">
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/2130264-5HR.01.jpg?crop=center&height=420&v=1707620033&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/2130232-045.01.jpg?crop=center&height=420&v=1709869154&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/2410200-089.01_66c988a9-f94f-4f1e-b8b5-f8e9e765bdec.jpg?crop=center&height=420&v=1709752566&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/2210553-2KY.01.jpg?crop=center&height=420&v=1707860867&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/2210553-2KY.01.jpg?crop=center&height=420&v=1707860867&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/2410197-504.01.jpg?crop=center&height=420&v=1706714112&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+              </div>
+              <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
 
-
-
+            <p>
+              <a href="#" style="color: #343f4f; font-size: 20px">Shop Now</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container">
+      <div class="banner2">
+        <div>
+          <div class="content">
+            <h2>Effortless layering</h2>
+            <p>
+              Set up Spring with new styles that promote versatility and
+              self-expression.
+            </p>
 
-        <div class="banner">
-            <div></div>
-            <div>
-                <div class="content">
-                    <h2>Effortless layering</h2>
-                    <p>Set up Spring with new styles that promote versatility and self-expression.</p>
-
-
-                    <div class="wrapper">
-                        <i id="left" class="fa-solid fa-angle-left"></i>
-                        <div class="carousel">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/2130264-5HR.01.jpg?crop=center&height=420&v=1707620033&width=314" alt="img" draggable="false">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/2130232-045.01.jpg?crop=center&height=420&v=1709869154&width=314" alt="img" draggable="false">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/2410200-089.01_66c988a9-f94f-4f1e-b8b5-f8e9e765bdec.jpg?crop=center&height=420&v=1709752566&width=314" alt="img" draggable="false">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/2210553-2KY.01.jpg?crop=center&height=420&v=1707860867&width=314" alt="img" draggable="false">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/2210553-2KY.01.jpg?crop=center&height=420&v=1707860867&width=314" alt="img" draggable="false">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/2410197-504.01.jpg?crop=center&height=420&v=1706714112&width=314" alt="img" draggable="false">
-                        </div>
-                        <i id="right" class="fa-solid fa-angle-right"></i>
-                      </div>
-
-                      <p><a href="#" style="color:  #343F4F; font-size: 20px;">Shop Now</a></p>
-                </div>
+            <div class="wrapper">
+              <i id="prev" class="fa-solid fa-angle-left"></i>
+              <div class="carousel">
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/1410259-4BO.01.jpg?crop=center&height=420&v=1709139965&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/1130341-5IN.01_1.jpg?crop=center&height=420&v=1709869015&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/1410257-002.01.jpg?crop=center&height=420&v=1707618739&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/1410257-002.01.jpg?crop=center&height=420&v=1707618739&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/1130336-585.01.jpg?crop=center&height=420&v=1707615847&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+                <img
+                  src="https://www.frankandoak.com/cdn/shop/files/1210524-5BO.01.jpg?crop=center&height=420&v=1711389897&width=314"
+                  alt="img"
+                  draggable="false"
+                />
+              </div>
+              <i id="next" class="fa-solid fa-angle-right"></i>
             </div>
-        </div>
 
-    </div>
-
-    <div class="container">
-
-        <div class="banner2">
-            <div>
-
-                <div class="content">
-                    <h2>Effortless layering</h2>
-                    <p>Set up Spring with new styles that promote versatility and self-expression.</p>
-
-
-                    <div class="wrapper">
-                        <i id="prev" class="fa-solid fa-angle-left"></i>
-                        <div class="carousel">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/1410259-4BO.01.jpg?crop=center&height=420&v=1709139965&width=314" alt="img" draggable="false">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/1130341-5IN.01_1.jpg?crop=center&height=420&v=1709869015&width=314" alt="img" draggable="false">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/1410257-002.01.jpg?crop=center&height=420&v=1707618739&width=314" alt="img" draggable="false">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/1410257-002.01.jpg?crop=center&height=420&v=1707618739&width=314" alt="img" draggable="false">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/1130336-585.01.jpg?crop=center&height=420&v=1707615847&width=314" alt="img" draggable="false">
-                          <img src="https://www.frankandoak.com/cdn/shop/files/1210524-5BO.01.jpg?crop=center&height=420&v=1711389897&width=314" alt="img" draggable="false">
-                        </div>
-                        <i id="next" class="fa-solid fa-angle-right"></i>
-                      </div>
-
-                      <p><a href="#" style="color:  #343F4F; font-size: 20px;">Shop Now</a></p>
-                </div>
-
-            </div>
-            <div></div>
-        </div>
-
-    </div>
-      <!-- First section of footer  -->
-  <section id="footer_first_section">
-    <div>
-
-      <img class="item__icon" src="//www.frankandoak.com/cdn/shop/files/Shipping-black_2_40x.png?v=1657555435"
-        width="40" height="40" loading="lazy">
-      <h4>Free Shipping</h4>
-      <p>On orders over &dollar;79</p>
-
-    </div>
-    <div>
-      <img class="item__icon"
-        src="//www.frankandoak.com/cdn/shop/files/Returns-black_6defe504-0961-4e6b-9c71-70f44686eaa1_40x.png?v=1668024666"
-        width="40" height="40" loading="lazy">
-      <h4>Free Returns
-      </h4>
-      <p>Only keep what you love.
-      </p>
-    </div>
-    <div>
-      <img class="item__icon" src="//www.frankandoak.com/cdn/shop/files/loyalty_logo_light_40x.png?v=1672328644"
-        width="40" height="40" loading="lazy">
-      <h4>Frank Rewards</h4>
-      <p>Earn points and get rewards.</p>
-    </div>
-    <div>
-      <img class="item__icon" src="//www.frankandoak.com/cdn/shop/files/Sezzle_40x.png?v=1704401097" width="40"
-        height="40" loading="lazy">
-      <h4>Buy Now, Pay Later
-      </h4>
-      <p>Select Klarna at checkout.
-      </p>
-    </div>
-
-  </section>
-
-  <!-- First Section part will end here -->
-
-
-  <!-- country icons part starts here -->
-  <div class="accordion country_icon" id="accordionExample">
-    <div class="accordion-item country_accordion_item">
-      <h2 class="accordion-header" id="headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-          aria-expanded="true" aria-controls="collapseOne">
-          <img class="country_logo" src="./footer_images/usa.png" alt=""><span> &dollar; USD</span>
-        </button>
-      </h2>
-      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-        data-bs-parent="#accordionExample">
-        <div class="accordion-body">
-          <span><img class="country_logo" src="./footer_images/canadaa.png" alt="">&dollar; CAD</span>
-          <span><img class="country_logo" src="./footer_images/usa.png" alt="">&dollar; USD</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- country icons part ends  here -->
-
-  <!-- second part of footer will start here -->
-  <summary id="footer_second_part">
-    <!-- Social media icons -->
-
-    <div id="icon_main_container">
-      <h4>Stay connected</h4>
-      <div><img class="frankandoak_logo" src="./footer_images/frank-and-oak-logo.jpg"></div>
-      <div>
-        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.pinterest.com"><i class="fab fa-pinterest"></i></a>
-        <a href="mailto:example@example.com"><i class="fas fa-envelope"></i></a>
-        <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
-
-
-      </div>
-      <p>This means we meet the highest standards of social and environmental performance, public transparency, and
-        legal accountability in the industry.
-
-      </p>
-    </div>
-
-    <!-- List of info start here -->
-
-    <div id="list_container">
-
-      <div>
-        <h4><a href="">Our Story </a></h4>
-        <p><a href="">Who we are</a></p>
-        <p><a href="">Sustainable practices</a></p>
-        <p><a href="">Design Ideology</a></p>
-        <p><a href="">Fabrics</a></p>
-        <p><a href="">Circular denim™
-          </a></p>
-        <p><a href="">Partners and factories</a></p>
-      </div>
-
-      <div>
-        <h4><a href="">Discover</a></h4>
-        <p><a href="">Gift Cards</a></p>
-        <p><a href="">Frank Rewards</a></p>
-        <p><a href="">Give $15, Get $15</a></p>
-        <p><a href="">Affiliate
-          </a></p>
-        <p><a href="">Work with us
-          </a></p>
-        <p><a href="">Our Stores</a></p>
-      </div>
-      <div>
-        <h4><a href="">Customer Care</a></h4>
-        <p><a href="">Shipping Information</a></p>
-        <p><a href="">Returns & Exchanges</a></p>
-        <p><a href="">Coupon Codes</a></p>
-        <p><a href="">F.A.Q.
-          </a></p>
-        <p><a href="">Terms & Conditions</a></p>
-        <p><a href="">Refund Policy</a></p>
-        <p><a href="">Privacy policy</a></p>
-        <p><a href="">Accessibility Statement</a></p>
-        <p><a href="">Customer Data Requests</a></p>
-      </div>
-    </div>
-
-
-
-    <!-- List of info ends here -->
-
-    <!-- form info start here -->
-    <div id="form_main_container">
-
-      <h4>Be the First</h4>
-      <p>Want a better planet with kinder products? Drop us your email⁠— you’ll get dibs on our latest eco-friendly
-        styles and initiatives. Unsubscribe anytime.
-      </p>
-      <form id="form_container" action="" method="get" class="form-example">
-
-        <div class="form-example">
-          <input class="placeholder" type="email" name="email" id="email" required placeholder="Email" />
-        </div>
-        <div class="form-example">
-          <input class="placeholder" type="text" name="name" id="name" required placeholder="First Name" />
-        </div>
-
-        <fieldset id="fieldset">
-          <span>I shop for</span>
-
-          <input type="radio" id="Women" name="drone" value="Women" />
-          <label for="Women">Women</label>
-
-          <input type="radio" id="Men" name="drone" value="Men" />
-          <label for="Men">Men</label>
-
-
-
-          <input type="radio" id="All" name="drone" value="All" />
-          <label for="All">All</label>
-
-        </fieldset>
-
-
-        <div class="form-example">
-          <input id="submit" type="submit" value="Subscribe!" />
-        </div>
-      </form>
-
-
-    </div>
-    <div id="terms_conditions">
-      <p>© Frank And Oak 2024 , All Rights Reserved.</p>
-    </div>
-
-    <!-- form info part ends here -->
-
-
-
-    <!-- list contianer accordion part for responsive -->
-
-    <div id="list_container_accordion">
-
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item accordion_bg_black">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button accordion_bg_black" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              <h4><a href="">Our Story </a></h4>
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body ">
-              <p><a href="">Who we are</a></p>
-              <p><a href="">Sustainable practices</a></p>
-              <p><a href="">Design Ideology</a></p>
-              <p><a href="">Fabrics</a></p>
-              <p><a href="">Circular denim™
-                </a></p>
-              <p><a href="">Partners and factories</a></p>
-            </div>
+            <p>
+              <a href="#" style="color: #343f4f; font-size: 20px">Shop Now</a>
+            </p>
           </div>
         </div>
-        <div class="accordion-item accordion_bg_black">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed accordion_bg_black" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <h4><a href="">Discover</a></h4>
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
+        <div></div>
+      </div>
+    </div>
+    <!-- First section of footer  -->
+    <section id="footer_first_section">
+      <div>
+        <img
+          class="item__icon"
+          src="//www.frankandoak.com/cdn/shop/files/Shipping-black_2_40x.png?v=1657555435"
+          width="40"
+          height="40"
+          loading="lazy"
+        />
+        <h4>Free Shipping</h4>
+        <p>On orders over &dollar;79</p>
+      </div>
+      <div>
+        <img
+          class="item__icon"
+          src="//www.frankandoak.com/cdn/shop/files/Returns-black_6defe504-0961-4e6b-9c71-70f44686eaa1_40x.png?v=1668024666"
+          width="40"
+          height="40"
+          loading="lazy"
+        />
+        <h4>Free Returns</h4>
+        <p>Only keep what you love.</p>
+      </div>
+      <div>
+        <img
+          class="item__icon"
+          src="//www.frankandoak.com/cdn/shop/files/loyalty_logo_light_40x.png?v=1672328644"
+          width="40"
+          height="40"
+          loading="lazy"
+        />
+        <h4>Frank Rewards</h4>
+        <p>Earn points and get rewards.</p>
+      </div>
+      <div>
+        <img
+          class="item__icon"
+          src="//www.frankandoak.com/cdn/shop/files/Sezzle_40x.png?v=1704401097"
+          width="40"
+          height="40"
+          loading="lazy"
+        />
+        <h4>Buy Now, Pay Later</h4>
+        <p>Select Klarna at checkout.</p>
+      </div>
+    </section>
 
-              <p><a href="">Gift Cards</a></p>
-              <p><a href="">Frank Rewards</a></p>
-              <p><a href="">Give $15, Get $15</a></p>
-              <p><a href="">Affiliate
-                </a></p>
-              <p><a href="">Work with us
-                </a></p>
-              <p><a href="">Our Stores</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item accordion_bg_black">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed accordion_bg_black" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <h4><a href="">Customer Care</a></h4>
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <p><a href="">Shipping Information</a></p>
-              <p><a href="">Returns & Exchanges</a></p>
-              <p><a href="">Coupon Codes</a></p>
-              <p><a href="">F.A.Q.
-                </a></p>
-              <p><a href="">Terms & Conditions</a></p>
-              <p><a href="">Refund Policy</a></p>
-              <p><a href="">Privacy policy</a></p>
-              <p><a href="">Accessibility Statement</a></p>
-              <p><a href="">Customer Data Requests</a></p>
-            </div>
+    <!-- First Section part will end here -->
+
+    <!-- country icons part starts here -->
+    <div class="accordion country_icon" id="accordionExample">
+      <div class="accordion-item country_accordion_item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            <img
+              class="country_logo"
+              src="./footer_images/usa.png"
+              alt=""
+            /><span> &dollar; USD</span>
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <span
+              ><img
+                class="country_logo"
+                src="./footer_images/canadaa.png"
+                alt=""
+              />&dollar; CAD</span
+            >
+            <span
+              ><img
+                class="country_logo"
+                src="./footer_images/usa.png"
+                alt=""
+              />&dollar; USD</span
+            >
           </div>
         </div>
       </div>
-
-
     </div>
 
-    <!-- Frank and oak img for responsive part -->
+    <!-- country icons part ends  here -->
 
-    <div id="middle_frnakoak_logo">
-      <img src="./footer_images/frank-and-oak-logo.jpg" alt="">
-      <p>Frank & Oak</p>
-    </div>
+    <!-- second part of footer will start here -->
+    <summary id="footer_second_part">
+      <!-- Social media icons -->
 
+      <div id="icon_main_container">
+        <h4>Stay connected</h4>
+        <div>
+          <img
+            class="frankandoak_logo"
+            src="./footer_images/frank-and-oak-logo.jpg"
+          />
+        </div>
+        <div>
+          <a href="https://www.instagram.com"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.pinterest.com"
+            ><i class="fab fa-pinterest"></i
+          ></a>
+          <a href="mailto:example@example.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>
+          This means we meet the highest standards of social and environmental
+          performance, public transparency, and legal accountability in the
+          industry.
+        </p>
+      </div>
 
+      <!-- List of info start here -->
 
+      <div id="list_container">
+        <div>
+          <h4><a href="">Our Story </a></h4>
+          <p><a href="">Who we are</a></p>
+          <p><a href="">Sustainable practices</a></p>
+          <p><a href="">Design Ideology</a></p>
+          <p><a href="">Fabrics</a></p>
+          <p><a href="">Circular denim™ </a></p>
+          <p><a href="">Partners and factories</a></p>
+        </div>
 
+        <div>
+          <h4><a href="">Discover</a></h4>
+          <p><a href="">Gift Cards</a></p>
+          <p><a href="">Frank Rewards</a></p>
+          <p><a href="">Give $15, Get $15</a></p>
+          <p><a href="">Affiliate </a></p>
+          <p><a href="">Work with us </a></p>
+          <p><a href="">Our Stores</a></p>
+        </div>
+        <div>
+          <h4><a href="">Customer Care</a></h4>
+          <p><a href="">Shipping Information</a></p>
+          <p><a href="">Returns & Exchanges</a></p>
+          <p><a href="">Coupon Codes</a></p>
+          <p><a href="">F.A.Q. </a></p>
+          <p><a href="">Terms & Conditions</a></p>
+          <p><a href="">Refund Policy</a></p>
+          <p><a href="">Privacy policy</a></p>
+          <p><a href="">Accessibility Statement</a></p>
+          <p><a href="">Customer Data Requests</a></p>
+        </div>
+      </div>
 
-  </summary>
+      <!-- List of info ends here -->
 
-   
-</body>
-<script src="js/index.js" defer></script>
+      <!-- form info start here -->
+      <div id="form_main_container">
+        <h4>Be the First</h4>
+        <p>
+          Want a better planet with kinder products? Drop us your email⁠— you’ll
+          get dibs on our latest eco-friendly styles and initiatives.
+          Unsubscribe anytime.
+        </p>
+        <form id="form_container" action="" method="get" class="form-example">
+          <div class="form-example">
+            <input
+              class="placeholder"
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-example">
+            <input
+              class="placeholder"
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="First Name"
+            />
+          </div>
 
-<!-- menu icon -->
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="https://kit.fontawesome.com/a0e3ce42aa.js" crossorigin="anonymous"></script>
+          <fieldset id="fieldset">
+            <span>I shop for</span>
+
+            <input type="radio" id="Women" name="drone" value="Women" />
+            <label for="Women">Women</label>
+
+            <input type="radio" id="Men" name="drone" value="Men" />
+            <label for="Men">Men</label>
+
+            <input type="radio" id="All" name="drone" value="All" />
+            <label for="All">All</label>
+          </fieldset>
+
+          <div class="form-example">
+            <input id="submit" type="submit" value="Subscribe!" />
+          </div>
+        </form>
+      </div>
+      <div id="terms_conditions">
+        <p>© Frank And Oak 2024 , All Rights Reserved.</p>
+      </div>
+
+      <!-- form info part ends here -->
+
+      <!-- list contianer accordion part for responsive -->
+
+      <div id="list_container_accordion">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item accordion_bg_black">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button accordion_bg_black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <h4><a href="">Our Story </a></h4>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p><a href="">Who we are</a></p>
+                <p><a href="">Sustainable practices</a></p>
+                <p><a href="">Design Ideology</a></p>
+                <p><a href="">Fabrics</a></p>
+                <p><a href="">Circular denim™ </a></p>
+                <p><a href="">Partners and factories</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item accordion_bg_black">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed accordion_bg_black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <h4><a href="">Discover</a></h4>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p><a href="">Gift Cards</a></p>
+                <p><a href="">Frank Rewards</a></p>
+                <p><a href="">Give $15, Get $15</a></p>
+                <p><a href="">Affiliate </a></p>
+                <p><a href="">Work with us </a></p>
+                <p><a href="">Our Stores</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item accordion_bg_black">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed accordion_bg_black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <h4><a href="">Customer Care</a></h4>
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p><a href="">Shipping Information</a></p>
+                <p><a href="">Returns & Exchanges</a></p>
+                <p><a href="">Coupon Codes</a></p>
+                <p><a href="">F.A.Q. </a></p>
+                <p><a href="">Terms & Conditions</a></p>
+                <p><a href="">Refund Policy</a></p>
+                <p><a href="">Privacy policy</a></p>
+                <p><a href="">Accessibility Statement</a></p>
+                <p><a href="">Customer Data Requests</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frank and oak img for responsive part -->
+
+      <div id="middle_frnakoak_logo">
+        <img src="./footer_images/frank-and-oak-logo.jpg" alt="" />
+        <p>Frank & Oak</p>
+      </div>
+    </summary>
+  </body>
+  <script src="js/index.js" defer></script>
+
+  <!-- menu icon -->
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/a0e3ce42aa.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
