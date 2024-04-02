@@ -406,26 +406,8 @@
                     "Size": "XS",
                     "Category": "Women"
                 },
-                {
-                    "ID": 44,
-                    "Image": "https://www.frankandoak.com/cdn/shop/files/2110326-006.01_450x.jpg?v=1709145363",
-                    "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2110326-006.02_450x.jpg?v=1709145363",
-                    "product-badge": "best seller",
-                    "Title": "The Sleeveless Turtleneck in Black",
-                    "Price": 77,
-                    "Size": "M",
-                    "Category": "Women"
-                },
-                {
-                    "ID": 45,
-                    "Image": "https://www.frankandoak.com/cdn/shop/files/2130266-412.01_450x.jpg?v=1707860256",
-                    "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2130266-412.02_450x.jpg?v=1707860256",
-                    "product-badge": "new",
-                    "Title": "The Colourblock Crewneck Sweater in Peacock Blue",
-                    "Price": 69,
-                    "Size": "M",
-                    "Category": "Women"
-                },
+  
+            
                 {
                     "ID": 46,
                     "Image": "https://www.frankandoak.com/cdn/shop/files/2310160-002.01_450x.jpg?v=1710768551",
@@ -436,18 +418,9 @@
                     "Size": "L",
                     "Category": "Women"
                 },
-                {
-                    "ID": 47,
-                    "Image": "https://www.frankandoak.com/cdn/shop/files/2210549-002.01_450x.jpg?v=1698409645",
-                    "Hover_image": "https://www.frankandoak.com/cdn/shop/files/2210549-002.02_450x.jpg?v=1698409645",
-                    "product-badge": "new",
-                    "Title": "The Ribbed Crewneck Sweater in Light Grey",
-                    "Price": 45,
-                    "Size": "S",
-                    "Category": "Women"
-                }
+              
             
-            ,
+            
             
                 {
                     "ID": 48,
@@ -3265,9 +3238,7 @@
             "Image": "https://www.frankandoak.com/cdn/shop/files/1210525-559.01_450x.jpg?v=1711572226",
             "Hover_image": "https://www.frankandoak.com/cdn/shop/files/1210525-559.03_450x.jpg?v=1711572227",
             "product-badge": "new",
-            "Title": "The Colin Tapered Linen Pant in Teal Grey",
-            "Price": 119.00,
-            "Category": "Men"
+              "Category": "Men"
         },
         {
             "ID": 369,
@@ -3316,5 +3287,7 @@
             "Category": "Men"
         }
 
-    ]
+    ]        "Title": "The Colin Tapered Linen Pant in Teal Grey",
+            "Price": 119.00,
+  
 }

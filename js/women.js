@@ -10,6 +10,9 @@ let midPrice = document.getElementById('Mid');
 let sortFilter = document.getElementById('Sprice');
 let Div_carousel = document.getElementsByClassName("carousel-inner");
 let accordion = document.getElementsByClassName('contentBx');
+let low = document.getElementById("low");
+let Mid = document.getElementById("Mid");
+let high = document.getElementById("high");
 
 let pagebtn = document.getElementById("btnLoadMore");
 //card creation function 
@@ -143,6 +146,35 @@ for(let i=0 ;i<accordion.length;i++){
         this.classList.toggle("active");
     })
 };
+//sorting on the price range 
+low.addEventListener('click',()=>{
+    mainContainer.innerHTML="";
+    fetchData(`${url}&_page=1$_limit=16`,"&Price_gte=0&Price_lte=100")
+});
+Mid.addEventListener('click',()=>{
+    mainContainer.innerHTML="";
+    fetchData(`${url}&_page=1$_limit=16`,"&Price_gte=100&Price_lte=250")
+});
+high.addEventListener('click',()=>{
+    mainContainer.innerHTML="";
+    fetchData(`${url}&_page=1$_limit=16`,"&Price_gte=250&Price_lte=500")
+});
+
+
+
+// recent view 
+let recentView = document.getElementById("recent_view");
+ async  function addToRecentView(link) {
+    try{
+        let res = await  fetch(link);
+        let data = await res.json();
+        console.log(data);
+        data.forEach((item)=>{
+            recentView.append(cardCreation(item));
+        })
+    }catch(err){console.log(err)}
+}
+addToRecentView(`${url}&_page=1&_limit=5`);
 
 
 

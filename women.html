@@ -32,13 +32,20 @@
   <body>
     <!-- nav section  -->
     <div id="navBar">
-      <img src="" alt="" />
+      <!-- <img src="" alt="" /> -->
       <p>Spring Sale</p>
       <p>Men</p>
       <p>Women</p>
       <p>Our Story</p>
       <span class="material-symbols-outlined"> search </span>
-      <span class="material-symbols-outlined"> account_circle </span>
+      <span
+        class="material-symbols-outlined"
+        data-bs-toggle="modal"
+        data-bs-target="#signInModal"
+        style="cursor: pointer"
+      >
+        account_circle
+      </span>
       <span class="material-symbols-outlined"> favorite </span>
       <span class="material-symbols-outlined"> shopping_bag </span>
     </div>
@@ -157,25 +164,55 @@
               <div>
                 <input
                   type="radio"
-                  id="huey"
+                  id="tops"
                   name="drone"
-                  value="huey"
+                  value="tops"
                   checked
                 />
-                <label for="huey">XL</label>
+                <label for="tops">Tops</label>
               </div>
               <div>
-                <input type="radio" id="L" name="drone" value="L" />
-                <label for="L">L</label>
+                <input
+                  type="radio"
+                  id="Sweaters"
+                  name="drone"
+                  value="Sweaters"
+                />
+                <label for="Sweaters">Sweaters</label>
               </div>
 
               <div>
-                <input type="radio" id="louie" name="drone" value="louie" />
-                <label for="louie">M</label>
+                <input type="radio" id="Blazers" name="drone" value="Blazers" />
+                <label for="Blazers">Blazers</label>
               </div>
               <div>
-                <input type="radio" id="dewey" name="drone" value="dewey" />
-                <label for="dewey">XS</label>
+                <input type="radio" id="Jackets" name="drone" value="Jackets" />
+                <label for="Jackets">Jackets</label>
+              </div>
+              <div>
+                <input type="radio" id="Skirts" name="drone" value="Skirts" />
+                <label for="Skirts">Skirts</label>
+              </div>
+              <div>
+                <input type="radio" id="Dresses" name="drone" value="Dresses" />
+                <label for="Dresses">Dresses</label>
+              </div>
+              <div>
+                <input type="radio" id="Pants" name="drone" value="Pants" />
+                <label for="Pants">Pants</label>
+              </div>
+              <div>
+                <input type="radio" id="Denim" name="drone" value="Denim" />
+                <label for="Denim">Denim</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="Caps and Beanies"
+                  name="drone"
+                  value="Caps and Beanies"
+                />
+                <label for="Caps and Beanies">Caps and Beanies</label>
               </div>
             </div>
             <hr />
@@ -269,9 +306,11 @@
     </div>
     <div id="btnLoadMore"></div>
     <hr />
-    <!-- <div>
+
+    <div id="base">
       <h2>RECENTLY VIEW</h2>
-    </div> -->
+      <div id="recent_view"></div>
+    </div>
 
     <div id="footer">
       <section id="footer_first_section" class="contianer">
