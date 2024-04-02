@@ -15,13 +15,15 @@
     font-family:'Poppins',sans-serif;
 }
 #sidebar{
+
     height: 90vh;
     overflow-y: scroll;
    
     width: 270px;
 }
+
 #mainContainer{
-    
+   
     display: grid;
     gap: 20px;
     justify-content: space-around;
@@ -51,7 +53,7 @@
 
 .card_list{
     position: relative;
-    width: 300px;
+    width: 290px;
     font-family: sans-serif;
     font-weight: 400;
 }
@@ -60,10 +62,16 @@
 }
 #shopAll{
     display: flex;
+
     justify-content: space-between;
+    >a{
+      text-decoration: none;
+      color: grey;
+      margin-left: 20px;
+    }
 }
 #body{
-   
+    position: relative;
     display: flex;
     gap: 20px;
     font-family: sans-serif;
@@ -111,12 +119,10 @@
 /* filter by price  */
 #Sprice{
   border: none;
+  color: grey;
+  margin-right: 30px;
 }
-#navBar{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;

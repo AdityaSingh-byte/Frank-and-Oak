@@ -13,7 +13,7 @@ let accordion = document.getElementsByClassName('contentBx');
 let low = document.getElementById("low");
 let Mid = document.getElementById("Mid");
 let high = document.getElementById("high");
-
+let cartcount = document.getElementById("cartcount");
 let pagebtn = document.getElementById("btnLoadMore");
 //card creation function 
 function cardCreation(data){
@@ -58,6 +58,7 @@ button.addEventListener('click', () => {
     if (localStorage.getItem("CartData")!== null) {
         CartData = JSON.parse(localStorage.getItem("CartData"));
     }
+    let i =0 ;
     let flag = false;
     CartData.forEach(ele => {
         if (ele.ID === data.ID) {
@@ -69,6 +70,8 @@ button.addEventListener('click', () => {
         CartData.push({...data, quantity: 1})
     }
     localStorage.setItem("CartData", JSON.stringify(CartData));
+    cartcount.innerText=`${i++}`;
+
 });
 
 //appending the data in div
@@ -175,6 +178,10 @@ let recentView = document.getElementById("recent_view");
     }catch(err){console.log(err)}
 }
 addToRecentView(`${url}&_page=1&_limit=5`);
+
+//cart counting 
+
+
 
 
 
