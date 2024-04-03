@@ -52,7 +52,7 @@ cards.addEventListener("mouseover", function () {
 cards.addEventListener("mouseout", function () {
     button.style.display = "none";
 });
-let i =0 ;
+
 //addTocart button event
 button.addEventListener('click', () => {
     let CartData = [];
@@ -71,7 +71,7 @@ button.addEventListener('click', () => {
         CartData.push({...data, quantity: 1})
     }
     localStorage.setItem("CartData", JSON.stringify(CartData));
-    cartcount.innerText=`${i++}`;
+    cartcount.innerText=`${CartData.length}`;
 
 });
 
