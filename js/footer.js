@@ -1,4 +1,4 @@
-
+  //  Local storage part
     document.getElementById('form_container').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent default form submission
 
@@ -36,3 +36,23 @@
         }
     });
 
+
+
+// Strory section 
+
+    document.getElementById('toggleButton').addEventListener('click', toggleSubContainer);
+
+    function toggleSubContainer() {
+      var subContainer = document.getElementById('sub_cards_container');
+      var button = document.getElementById('toggleButton');
+      
+      // Toggle visibility of sub-container
+      subContainer.classList.toggle('visible');
+      
+      // Change button text
+      if (subContainer.classList.contains('visible')) {
+        button.textContent = '-';
+      } else {
+        button.textContent = '+';
+      }
+    }
