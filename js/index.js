@@ -252,3 +252,28 @@ function appendDataIntoDom(data, numberOfCards) {
     }
 
 }
+
+
+const carousel = document.querySelector('.carouseling');
+    const cards = document.querySelectorAll('.card');
+    let currentIndexs = 0;
+
+    function moveToIndex(index) {
+      const cardWidth = cards[index].offsetWidth;
+      carousel.style.transform = `translateX(-${index * cardWidth}px)`;
+      currentIndexs = index;
+    }
+
+    document.querySelector('.next-btn').addEventListener('click', function() {
+      if (currentIndexs < cards.length - 1) {
+        moveToIndex(currentIndexs + 1);
+      }
+    });
+
+    document.querySelector('.prev-btn').addEventListener('click', function() {
+        console.log("Previous button clicked"); // Add this line for debugging
+        if (currentIndex > 0) {
+          moveToIndex(currentIndex - 1);
+        }
+      });
+      
