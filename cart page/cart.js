@@ -89,7 +89,22 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem("cart", JSON.stringify(cart));
     }
 
-    
+    function updateTotalPrice() {
+        const cartItems = document.querySelectorAll('.cart-item');
+        let totalPrice = 0;
+
+        cartItems.forEach(cartItem => {
+            const itemTotalPriceElement = cartItem.querySelector('p:last-child');
+            const itemQuantity = parseInt(cartItem.querySelector('p:nth-child(4)').textContent.split(': ')[1]);
+            const itemPrice = parseFloat(cartItem.querySelector('p:nth-child(3)').textContent.split(': ')[1].slice(0, -1));
+            const itemTotal = itemQuantity * itemPrice;
+            itemTotalPriceElement.textContent = `Total Price: ${itemTotal}$`;
+            totalPrice += itemTotal;
+        });
+
+        const totalElement = document.querySelector('.overall-total-price');
+        totalElement.textContent =`Total Amount: $${totalPrice}`;
+    }
 
     displayCartItems();
 });
