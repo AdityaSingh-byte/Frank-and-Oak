@@ -4,7 +4,8 @@ const carouselItems = document.getElementById('carousel-items');
 const itemWidth = carouselItems.offsetWidth;
 let currentIndex = 0;
 let timer;
-
+let menPage = document.getElementById("mensPage");
+let womensPage = document.getElementById("womensPage");
 function moveCarousel(direction) {
     if (direction === 'next' && currentIndex < carouselItems.children.length - 1) {
         currentIndex++;
@@ -252,3 +253,7 @@ function appendDataIntoDom(data, numberOfCards) {
     }
 
 }
+
+womensPage.addEventListener("click", () =>{
+    window.location.href="../women.html"
+})

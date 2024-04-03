@@ -197,37 +197,7 @@ input[type="radio"] {
   input[type="radio"]:checked {
     background-image: url(https://imgs.search.brave.com/7-mbp9Au7ut32uWlx5zC13nOY9unfsqKxcEQeX_2ml4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG40/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvZXBpYy1vdXRs/aW5lcy8zMC82NjA5/OTQtY2hlY2tfYnV0/dG9uXzItMTI4LnBu/Zw);
   }
-  #modal_head {
-    text-align: center;
-  }
-  .modal_footer {
-    text-align: center;
-  }
-  .signInBtns {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 30px 0px;
-  }
   
-  
-  
-  .vl {
-    border-left: 2px solid grey;
-    height: 200px;
-  }
-  
- 
-  
-  .grey {
-    color: grey;
-  }
-  
-  .signUp {
-    color: green;
-    text-decoration: none;
-    font-weight:bold;
-  }
   /* recent view  */
   #recent_view{
     display: flex;
