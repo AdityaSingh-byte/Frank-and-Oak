@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem("cart", JSON.stringify(cart));
     }
 
-   
+    
 
     displayCartItems();
 });
