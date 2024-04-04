@@ -18,7 +18,7 @@ figure{
     justify-content: center;
     gap: 30px;
    
-    background-image: url("./footer_images/Story_section_image.webp");
+    background-image: url("../footer_images/Story_section_image.webp");
     background-position: center;
     background-size: cover;
     color: white;

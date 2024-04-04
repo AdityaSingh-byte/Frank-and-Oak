@@ -11,17 +11,342 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/women.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
   </head>
   <body>
     <!-- nav section  -->
-    <div></div>
+    <div class="container navbar">
+      <div class="header">
+        <div class="text">
+          <div id="carousel-container">
+            <div id="carousel-items">
+              <div class="carousel-item">
+                <p>
+                  New in— Discover elevated simplicity for the season ahead.
+                  <a href="#">Shop Women</a> <a href="#">Shop Men</a>
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p>Giveaway! Win your $2,000 wishlist Enter now</p>
+              </div>
+              <div class="carousel-item">
+                <p>Enjoy free shipping on orders over $79 and free returns</p>
+              </div>
+            </div>
+            <a class="prev" onclick="moveCarousel('prev')">&#10094;</a>
+            <a class="next" onclick="moveCarousel('next')">&#10095;</a>
+          </div>
+        </div>
+
+        <div class="flag">
+          <img src="https://flagpedia.net/data/flags/w580/us.webp" alt="USD" />
+          <h4>$ USD</h4>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+      </div>
+
+      <!-- end header section -->
+
+      <!-- start navbar  -->
+
+      <nav>
+        <div class="mobile-navbar-btn">
+          <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+          <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+        <img src="images/logo.png" alt="" id="logoImg" />
+        <div class="menu-item">
+          <ul>
+            <li><a href="#" id="women">Women</a></li>
+            <li><a href="#" id="men">Men</a></li>
+            <li><a href="#" class="sale" id="sales">Sale</a></li>
+            <li><a href="#" id="ourStory">Our Story</a></li>
+          </ul>
+        </div>
+        <div class="menu-icon">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span
+                  class="material-symbols-outlined"
+                  data-bs-toggle="modal"
+                  data-bs-target="#signInModal"
+                >
+                  account_circle
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-regular fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="cart.html">
+                <span class="material-symbols-outlined"> shopping_bag </span>
+                <span id="cartcount"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- login  -->
+    <div
+      class="modal fade"
+      id="signInModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 modal_head" id="exampleModalLabel">
+              Welcome back.
+            </h1>
+            <p>Log in to get access to your member perks</p>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div id="signInForm">
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="user_email"
+                    aria-describedby="emailHelp"
+                    placeholder="Email address"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="user_pwd"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="forgotPassword">
+                  <a href="">Forgot password?</a>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-outline-secondary"
+                  id="submit_btn"
+                >
+                  Log In
+                </button>
+              </form>
+            </div>
+            <hr />
+            <div id="createAccont">
+              <p>Social Login</p>
+
+              <div>
+                <button>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <p>Sign in with Facebook</p>
+                </button>
+                <button>
+                  <i class="fab fa-google"></i>
+                  <p>Sign in with Google</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <div class="modal_footer">
+              <div>
+                <p>
+                  Don't have an account?
+                  <a
+                    href="#"
+                    id="signUp"
+                    data-bs-toggle="modal"
+                    data-bs-target="#signUpModal"
+                    >Sing up</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sign in  -->
+    <div
+      class="modal fade"
+      id="signUpModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title fs-5 modal_head" id="signUpModalLabel">
+              Create your account
+            </h3>
+            <h5>Sign up and enjoy member benefits</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="signInBtns">
+              <div>
+                <div
+                  id="g_id_onload"
+                  data-client_id="117865134415-3r30fn4en6cq3orthqr42jrbisngmefj.apps.googleusercontent.com"
+                  data-context="signin"
+                  data-ux_mode="popup"
+                  data-login_uri="https://tech-tatva-2345-1.onrender.com/blog_posts"
+                  data-auto_prompt="false"
+                ></div>
+
+                <div
+                  class="g_id_signin"
+                  data-type="standard"
+                  data-shape="pill"
+                  data-theme="outline"
+                  data-text="signin_with"
+                  data-size="large"
+                  data-logo_alignment="left"
+                ></div>
+              </div>
+
+              <div id="signUpForm">
+                <form>
+                  <div class="mb-3">
+                    <div id="f_l">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="fName"
+                        aria-describedby="emailHelp"
+                        placeholder="First Name"
+                      />
+
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="lName"
+                        aria-describedby="emailHelp"
+                        placeholder="Last Name"
+                      />
+                    </div>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="signUp_email"
+                      aria-describedby="emailHelp"
+                      placeholder="Email Address"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="signUp_pwd"
+                      placeholder="Password"
+                    />
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn btn-outline-secondary"
+                    id="signUp_submit_btn"
+                  >
+                    Sign up
+                  </button>
+                </form>
+              </div>
+              <div id="createAccont">
+                <p>Social Login</p>
+
+                <div>
+                  <button>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <p>Sign in with Facebook</p>
+                  </button>
+                  <button>
+                    <i class="fab fa-google"></i>
+                    <p>Sign in with Google</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="modal_footer">
+              <div>
+                <p>
+                  Already have an account?
+                  <a
+                    href="#"
+                    class="signUp"
+                    data-bs-toggle="modal"
+                    data-bs-target="#signInModal"
+                    >Sign In</a
+                  >
+                </p>
+              </div>
+              <div class="grey">
+                Click “Sign up” to agree to Medium’s
+                <a href="#" class="grey">Terms of Service</a> and acknowledge
+                that <br />
+                Medium’s
+                <a href="#" class="grey">Privacy Policy</a>
+                applies to you.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- sidebar -->
     <div id="top">
       <div id="shopAll">
         <a href="index.html">Home/Women</a>
 
-        <p>Shop All</p>
-        <a href="cart page/cart.html">Cart</a>
         <select name="price" id="Sprice">
           <option value="Default">Filter by Price</option>
           <option value="lowTohigh">Low-To-High</option>
@@ -29,99 +354,123 @@
         </select>
       </div>
     </div>
-    <div id="body">
+    <div id="body" class="contianer">
       <div id="sidebar">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                Size
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <div>
-                  <input
-                    type="radio"
-                    id="huey"
-                    name="drone"
-                    value="huey"
-                    checked
-                  />
-                  <label for="huey">XL</label>
-                </div>
-                <div>
-                  <input type="radio" id="L" name="drone" value="L" />
-                  <label for="L">L</label>
-                </div>
-                <div>
-                  <input type="radio" id="dewey" name="drone" value="dewey" />
-                  <label for="dewey">XS</label>
-                </div>
+        <div class="accordion">
+          <div class="contentBx">
+            <hr />
+            <div class="lable">Subcategory</div>
+            <div class="content">
+              <div>
+                <input
+                  type="radio"
+                  id="tops"
+                  name="drone"
+                  value="tops"
+                  checked
+                />
+                <label for="tops">Tops</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="Sweaters"
+                  name="drone"
+                  value="Sweaters"
+                />
+                <label for="Sweaters">Sweaters</label>
+              </div>
 
-                <div>
-                  <input type="radio" id="louie" name="drone" value="louie" />
-                  <label for="louie">M</label>
-                </div>
+              <div>
+                <input type="radio" id="Blazers" name="drone" value="Blazers" />
+                <label for="Blazers">Blazers</label>
+              </div>
+              <div>
+                <input type="radio" id="Jackets" name="drone" value="Jackets" />
+                <label for="Jackets">Jackets</label>
+              </div>
+              <div>
+                <input type="radio" id="Skirts" name="drone" value="Skirts" />
+                <label for="Skirts">Skirts</label>
+              </div>
+              <div>
+                <input type="radio" id="Dresses" name="drone" value="Dresses" />
+                <label for="Dresses">Dresses</label>
+              </div>
+              <div>
+                <input type="radio" id="Pants" name="drone" value="Pants" />
+                <label for="Pants">Pants</label>
+              </div>
+              <div>
+                <input type="radio" id="Denim" name="drone" value="Denim" />
+                <label for="Denim">Denim</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  id="Caps and Beanies"
+                  name="drone"
+                  value="Caps and Beanies"
+                />
+                <label for="Caps and Beanies">Caps and Beanies</label>
               </div>
             </div>
+            <hr />
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button
-                class="accordion-button collapsed"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
-                aria-expanded="false"
-                aria-controls="collapseTwo"
-              >
-                Price
-              </button>
-            </h2>
-            <div
-              id="collapseTwo"
-              class="accordion-collapse collapse"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <div>
-                  <input
-                    type="radio"
-                    id="low"
-                    name="price"
-                    value="low"
-                    checked
-                  />
-                  <label for="low">$0-$100</label>
-                </div>
+          <div class="contentBx">
+            <hr />
+            <div class="lable">Size</div>
+            <div class="content">
+              <div>
+                <input
+                  type="radio"
+                  id="huey"
+                  name="drone"
+                  value="huey"
+                  checked
+                />
+                <label for="huey">XL</label>
+              </div>
+              <div>
+                <input type="radio" id="L" name="drone" value="L" />
+                <label for="L">L</label>
+              </div>
 
-                <div>
-                  <input type="radio" id="Mid" name="price" value="Mid" />
-                  <label for="mid">$100-$250</label>
-                </div>
-
-                <div>
-                  <input type="radio" id="high" name="price" value="high" />
-                  <label for="high">$250-$500</label>
-                </div>
+              <div>
+                <input type="radio" id="louie" name="drone" value="louie" />
+                <label for="louie">M</label>
+              </div>
+              <div>
+                <input type="radio" id="dewey" name="drone" value="dewey" />
+                <label for="dewey">XS</label>
               </div>
             </div>
+            <hr />
+          </div>
+          <div class="contentBx">
+            <hr />
+            <div class="lable">Price</div>
+            <div class="content">
+              <div>
+                <input type="radio" id="low" name="price" value="low" checked />
+                <label for="low">$0-$100</label>
+              </div>
+
+              <div>
+                <input type="radio" id="Mid" name="price" value="Mid" />
+                <label for="mid">$100-$250</label>
+              </div>
+
+              <div>
+                <input type="radio" id="high" name="price" value="high" />
+                <label for="high">$250-$500</label>
+              </div>
+            </div>
+            <hr />
           </div>
         </div>
         <div id="featured">
-          <h3>Featured</h3>
+          <h6>Featured</h6>
           <p>New In</p>
           <p>Best Sellers</p>
           <p>Skyline</p>
@@ -130,8 +479,9 @@
           <p>Best of Instagram</p>
           <p>Sale</p>
         </div>
+        <hr />
         <div id="Clothing">
-          <h3>Clothing</h3>
+          <h6>Clothing</h6>
           <a href="">Shop All</a>
           <p>T-shirts & Tops</p>
           <p>Blouses & Shirts</p>
@@ -142,6 +492,7 @@
           <p>Denim</p>
           <p>Pants</p>
         </div>
+        <hr />
         <div id="Accessories">
           <p>Shop All</p>
           <p>Beanies & Caps</p>
@@ -149,27 +500,341 @@
           <p>Bags</p>
         </div>
       </div>
-
-      <div id="mainContainer"></div>
+      <div id="upmain">
+        <hr />
+        <h4>Shop All</h4>
+        <div id="mainContainer"></div>
+      </div>
     </div>
     <div id="btnLoadMore"></div>
+    <hr />
 
-    <div class="carousel">
-      <div class="carousel-inner">
-        <!-- The carousel items will be generated dynamically here -->
+    <div id="base">
+      <h2>RECENTLY VIEW</h2>
+      <div id="recent_view"></div>
+    </div>
+
+    <div id="footer">
+      <section id="footer_first_section" class="contianer">
+        <div>
+          <img
+            class="item__icon"
+            src="//www.frankandoak.com/cdn/shop/files/Shipping-black_2_40x.png?v=1657555435"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+          <h4>Free Shipping</h4>
+          <p>On orders over &dollar;79</p>
+        </div>
+        <div>
+          <img
+            class="item__icon"
+            src="//www.frankandoak.com/cdn/shop/files/Returns-black_6defe504-0961-4e6b-9c71-70f44686eaa1_40x.png?v=1668024666"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+          <h4>Free Returns</h4>
+          <p>Only keep what you love.</p>
+        </div>
+        <div>
+          <img
+            class="item__icon"
+            src="//www.frankandoak.com/cdn/shop/files/loyalty_logo_light_40x.png?v=1672328644"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+          <h4>Frank Rewards</h4>
+          <p>Earn points and get rewards.</p>
+        </div>
+        <div>
+          <img
+            class="item__icon"
+            src="//www.frankandoak.com/cdn/shop/files/Sezzle_40x.png?v=1704401097"
+            width="40"
+            height="40"
+            loading="lazy"
+          />
+          <h4>Buy Now, Pay Later</h4>
+          <p>Select Klarna at checkout.</p>
+        </div>
+      </section>
+
+      <div class="accordion country_icon" id="accordionExample">
+        <div class="accordion-item country_accordion_item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              <img
+                class="country_logo"
+                src="./footer_images/usa.png"
+                alt=""
+              /><span> &dollar; USD</span>
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <span
+                ><img
+                  class="country_logo"
+                  src="./footer_images/canadaa.png"
+                  alt=""
+                />&dollar; CAD</span
+              >
+              <span
+                ><img
+                  class="country_logo"
+                  src="./footer_images/usa.png"
+                  alt=""
+                />&dollar; USD</span
+              >
+            </div>
+          </div>
+        </div>
       </div>
-      <button
-        class="carousel-arrow prev"
-        id="prev"
-        aria-label="Previous"
-      ></button>
-      <button class="carousel-arrow next" id="next" aria-label="Next"></button>
+
+      <summary id="footer_second_part">
+        <div id="icon_main_container">
+          <h4>Stay connected</h4>
+          <div>
+            <img
+              class="frankandoak_logo"
+              src="./footer_images/frank-and-oak-logo.jpg"
+            />
+          </div>
+          <div>
+            <a href="https://www.instagram.com"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.pinterest.com"
+              ><i class="fab fa-pinterest"></i
+            ></a>
+            <a href="mailto:example@example.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+            <a href="https://www.linkedin.com"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+          <p>
+            This means we meet the highest standards of social and environmental
+            performance, public transparency, and legal accountability in the
+            industry.
+          </p>
+        </div>
+
+        <div id="list_container">
+          <div>
+            <h4><a href="">Our Story </a></h4>
+            <p><a href="">Who we are</a></p>
+            <p><a href="">Sustainable practices</a></p>
+            <p><a href="">Design Ideology</a></p>
+            <p><a href="">Fabrics</a></p>
+            <p><a href="">Circular denim™ </a></p>
+            <p><a href="">Partners and factories</a></p>
+          </div>
+
+          <div>
+            <h4><a href="">Discover</a></h4>
+            <p><a href="">Gift Cards</a></p>
+            <p><a href="">Frank Rewards</a></p>
+            <p><a href="">Give $15, Get $15</a></p>
+            <p><a href="">Affiliate </a></p>
+            <p><a href="">Work with us </a></p>
+            <p><a href="">Our Stores</a></p>
+          </div>
+          <div>
+            <h4><a href="">Customer Care</a></h4>
+            <p><a href="">Shipping Information</a></p>
+            <p><a href="">Returns & Exchanges</a></p>
+            <p><a href="">Coupon Codes</a></p>
+            <p><a href="">F.A.Q. </a></p>
+            <p><a href="">Terms & Conditions</a></p>
+            <p><a href="">Refund Policy</a></p>
+            <p><a href="">Privacy policy</a></p>
+            <p><a href="">Accessibility Statement</a></p>
+            <p><a href="">Customer Data Requests</a></p>
+          </div>
+        </div>
+
+        <div id="form_main_container">
+          <h4>Be the First</h4>
+          <p>
+            Want a better planet with kinder products? Drop us your email⁠—
+            you’ll get dibs on our latest eco-friendly styles and initiatives.
+            Unsubscribe anytime.
+          </p>
+          <form id="form_container" action="" method="get" class="form-example">
+            <div class="form-example">
+              <input
+                class="placeholder"
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-example">
+              <input
+                class="placeholder"
+                type="text"
+                name="name"
+                id="name"
+                required
+                placeholder="First Name"
+              />
+            </div>
+
+            <fieldset id="fieldset">
+              <span>I shop for</span>
+
+              <input type="radio" id="Women" name="drone" value="Women" />
+              <label for="Women">Women</label>
+
+              <input type="radio" id="Men" name="drone" value="Men" />
+              <label for="Men">Men</label>
+
+              <input type="radio" id="All" name="drone" value="All" />
+              <label for="All">All</label>
+            </fieldset>
+
+            <div class="form-example">
+              <input id="submit" type="submit" value="Subscribe!" />
+            </div>
+          </form>
+        </div>
+        <div id="terms_conditions">
+          <p>© Frank And Oak 2024 , All Rights Reserved.</p>
+        </div>
+
+        <div id="list_container_accordion">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item accordion_bg_black">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button accordion_bg_black"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  <h4><a href="">Our Story </a></h4>
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p><a href="">Who we are</a></p>
+                  <p><a href="">Sustainable practices</a></p>
+                  <p><a href="">Design Ideology</a></p>
+                  <p><a href="">Fabrics</a></p>
+                  <p><a href="">Circular denim™ </a></p>
+                  <p><a href="">Partners and factories</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item accordion_bg_black">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed accordion_bg_black"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  <h4><a href="">Discover</a></h4>
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p><a href="">Gift Cards</a></p>
+                  <p><a href="">Frank Rewards</a></p>
+                  <p><a href="">Give $15, Get $15</a></p>
+                  <p><a href="">Affiliate </a></p>
+                  <p><a href="">Work with us </a></p>
+                  <p><a href="">Our Stores</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item accordion_bg_black">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed accordion_bg_black"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  <h4><a href="">Customer Care</a></h4>
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <p><a href="">Shipping Information</a></p>
+                  <p><a href="">Returns & Exchanges</a></p>
+                  <p><a href="">Coupon Codes</a></p>
+                  <p><a href="">F.A.Q. </a></p>
+                  <p><a href="">Terms & Conditions</a></p>
+                  <p><a href="">Refund Policy</a></p>
+                  <p><a href="">Privacy policy</a></p>
+                  <p><a href="">Accessibility Statement</a></p>
+                  <p><a href="">Customer Data Requests</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="middle_frnakoak_logo">
+          <img src="./footer_images/frank-and-oak-logo.jpg" alt="" />
+          <p>Frank & Oak</p>
+        </div>
+      </summary>
     </div>
   </body>
   <script src="js/women.js"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/a0e3ce42aa.js"
     crossorigin="anonymous"
   ></script>
 </html>

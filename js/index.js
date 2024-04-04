@@ -204,7 +204,7 @@ function createCard(data) {
     let h5 = document.createElement("h5");
     let p1 = document.createElement("p");
     let p2 = document.createElement("p");
-    let heartIcon = document.createElement("i");
+   
 
     imgDiv.classList.add("img", "loading");
     p1.classList.add("loading");
@@ -221,20 +221,19 @@ function createCard(data) {
         imgDiv.style.backgroundImage = `url('${data.Image}')`;
     });
 
-    button.innerText = "Quick Add";
+   
     h5.innerText = data["product-badge"];
-    p2.innerText = data.Price;
+    p2.innerText = `$${data.Price}`;
 
     p1.innerText = data.Title;
-    heartIcon.classList.add("fa-regular", "fa-heart");
-    p1.appendChild(heartIcon);
+    
 
     setTimeout(() => {
         imgDiv.classList.remove("loading");
         p1.classList.remove("loading");
         p2.classList.remove("loading");
     }, 1000); 
-    imgDiv.append(button, h5);
+    imgDiv.append( h5);
     card.append(imgDiv, p1, p2);
 
     return card;
@@ -244,7 +243,7 @@ function createCard(data) {
 function appendDataIntoDom(data, numberOfCards) {
     cardCarousel.innerHTML = "";
 
-    let numberOfCardsToAppend = numberOfCards || 16;
+    let numberOfCardsToAppend = numberOfCards || 4;
 
     for (let i = 0; i < numberOfCardsToAppend && i < data.length; i++) {
         let card = createCard(data[i]);
@@ -277,3 +276,8 @@ const carousel = document.querySelector('.carouseling');
         }
       });
       
+
+    let womenPage = document.getElementById("womenPage");
+    womenPage.addEventListener('click',()=>{
+        window.location.href="../women.html";
+    })
