@@ -38,13 +38,21 @@ Frank-And-Oak/
 ├─ json/
   data.json
 ├─.gitignore
+
 ├─Men.html
+
 ├─cart.html
+
 ├─footer.html
+
 ├─index.html
+
 ├─package-lock.json
+
 ├─package.json
+
 ├─server.js
+
 ├─women.html
 
 ## Video Walkthrough of the project
