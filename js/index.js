@@ -277,7 +277,21 @@ const carousel = document.querySelector('.carouseling');
       });
       
 
-    let womenPage = document.getElementById("womenPage");
+    let womenPage = document.getElementById("womenbtn");
+    let womenPage2 = document.getElementById("women2");
     womenPage.addEventListener('click',()=>{
-        window.location.href="../women.html";
+        window.location.href="./women.html";
     })
+    womenPage2.addEventListener('click',()=>{
+        window.location.href="./women.html";
+    })
+    let  menPage = document.getElementById("menbtn");
+    let menpage2=document.getElementById("MensPage");
+    menPage.addEventListener('click', ()=>{
+        window.location.href="";
+    });
+    menPage2.addEventListener('click', ()=>{
+        window.location.href="";
+    });
+
+    
