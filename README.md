@@ -2,19 +2,20 @@
 Frank And Oak
 
 ## Introduction
-A brief introduction of your project goes here. You may want to cover the purpose of your project, its core functionality, and what problems it solves.
+It was a collaborative effort taken by 5 team members Aditya Singh, Sarvjoyti, Amrit pal Singh, Varshita Basavaraj, and Harshal Kale and it was completed in 5 days. The purpose of this project was to test our coding skills as well as our team-building skills.
+
 
 ## Project Type
 Frontend | Backend 
 
-## Deplolyed App
+## Deployed App
 Frontend: https://frankandoak.netlify.app/
 Backend: [https://deployed-site.whatever](https://frank-and-oak.onrender.com/)
 Database: https://frank-and-oak.onrender.com/Data
 
 ## Directory Structure
 Frank-And-Oak/
-├─ css/
+├─ Css/
   Mens.css
   cart.css
   footer.css
@@ -33,6 +34,7 @@ Frank-And-Oak/
    footer.js
    index.js
    women.js
+   
 ├─ json/
   data.json
 ├─.gitignore
@@ -61,29 +63,36 @@ Key features of our project
 
 
 ## Installation & Getting started
-Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
+git clone (repo link);
+index.html (open live server).
 
 
+#screenshots .
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/d7482a42-c700-49a7-914b-1b63793115f1)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/ccc8cb79-8b45-4e82-b814-6c6ee8a88301)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/54b2f84b-37fb-49ad-baa2-74f42783c51a)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/ccc2f529-ea84-4b8d-a862-585153f25dfe)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/34467e50-64a2-4f97-b9a0-4a5f7b54aefb)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/baf33c70-2512-4dd7-9748-595aade93ea4)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/8d2567d1-4b8c-4eba-baef-71904cb17e04)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/5b44e96b-528c-4cbf-aaf3-a1a42c859b87)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/2752cc27-4c11-4a4a-9c5e-df2ce6c31081)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/97af7be7-3dec-4492-9f0c-85c6501c4f14)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/59299154-4505-45e2-9c92-46f9a382fe79)
 
-## Usage
-Provide instructions and examples on how to use your project.
-
-
-
-Include screenshots as necessary.
-
-
-
-## Credentials
-Provide user credentials for autheticated pages
 
 ## APIs Used
-If your application relies on external APIs, document them and include any necessary links or references.
+Render was used for deploying the API which was created using Json-server.
 
 ## API Endpoints
-In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.
-GET /api/items - retrieve all items
-POST /api/items - create a new item
+Render was used for deploying the API which was created using Json-server.
+GET https://frank-and-oak.onrender.com/Data
+GET    /Data
+GET    /Data/:ID
+POST   /Data
+PUT    /Data/:ID
+PATCH  /Data/:ID
+DELETE /Data/:ID
 
 
 ## Technology Stack
