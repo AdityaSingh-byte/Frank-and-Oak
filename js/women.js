@@ -62,7 +62,7 @@ button.addEventListener('click', () => {
    
     let flag = false;
     cart.forEach(ele => {
-        if (ele.ID === data.ID) {
+        if (ele.id === data.id) {
             ele.quantity++;
             flag = true;
         }
@@ -181,6 +181,19 @@ let recentView = document.getElementById("recent_view");
 addToRecentView(`${url}&_page=1&_limit=5`);
 
 //cart counting 
+document.getElementById('signInForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const email = document.getElementById('user_email').value;
+    const password = document.getElementById('user_pwd').value;
+
+    // Add your authentication logic here
+    // For example, you can check if the email and password are correct
+    if (email === 'admin@example.com' && password === 'adminpassword') {
+        window.location.href = '../../Frank-and-Oak/admin.html'; // Redirect to the admin page if authentication is successful
+    } else {
+        alert('Invalid email or password');
+    }
+});
 
 
 

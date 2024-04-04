@@ -62,7 +62,7 @@ button.addEventListener('click', () => {
    
     let flag = false;
     cart.forEach(ele => {
-        if (ele.ID === data.ID) {
+        if (ele.id === data.id) {
             ele.quantity++;
             flag = true;
         }
