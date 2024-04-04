@@ -285,13 +285,13 @@ const carousel = document.querySelector('.carouseling');
     womenPage2.addEventListener('click',()=>{
         window.location.href="./women.html";
     })
-    let  menPage = document.getElementById("menbtn");
+    let  menPage = document.getElementById("mensbtn");
     let menpage2=document.getElementById("MensPage");
     menPage.addEventListener('click', ()=>{
-        window.location.href="";
+        window.location.href="../Men.html";
     });
     menPage2.addEventListener('click', ()=>{
-        window.location.href="";
+        window.location.href="../Men.html";
     });
 
     

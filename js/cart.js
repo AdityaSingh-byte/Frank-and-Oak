@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     quantity.textContent = `Quantity: ${item.quantity}`;
                     updateCart();
                     updateTotalPrice(); 
+                    location.reload();
                 }
             });
 
@@ -58,6 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 cartItem.remove();
                 updateCart();
                 updateTotalPrice();
+                location.reload();
             });
 
             const itemTotalPrice = document.createElement('p');
@@ -94,3 +96,4 @@ document.addEventListener('DOMContentLoaded', function () {
     displayCartItems();
 });
 window.onload(displayCartItems());
+ // 10000 milliseconds = 10 seconds
