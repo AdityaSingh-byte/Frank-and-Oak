@@ -280,18 +280,18 @@ const carousel = document.querySelector('.carouseling');
     let womenPage = document.getElementById("womenbtn");
     let womenPage2 = document.getElementById("women2");
     womenPage.addEventListener('click',()=>{
-        window.location.href="./women.html";
+        window.location.href="../pages/women.html";
     })
     womenPage2.addEventListener('click',()=>{
-        window.location.href="./women.html";
+        window.location.href="../pages/women.html";
     })
     let  menPage = document.getElementById("mensbtn");
     let menpage2=document.getElementById("MensPage");
     menPage.addEventListener('click', ()=>{
-        window.location.href="../Men.html";
+        window.location.href="../pages/Men.html";
     });
     menPage2.addEventListener('click', ()=>{
-        window.location.href="../Men.html";
+        window.location.href="../pages/Men.html";
     });
 
     

@@ -57,7 +57,7 @@ async function addData(event) {
     const category = form.querySelector('#category').value;
 
     const requestData = {
-        "ID" : ID,
+        "id" : ID,
         "Image": image,
         "product-badge": badge,
         "Title": title,
