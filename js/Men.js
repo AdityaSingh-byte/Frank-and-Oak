@@ -189,7 +189,7 @@ document.getElementById('signInForm').addEventListener('submit', function(event)
     // Add your authentication logic here
     // For example, you can check if the email and password are correct
     if (email === 'admin@gmail.com' && password === 'admin') {
-        window.location.href = '../../Frank-and-Oak/admin.html'; // Redirect to the admin page if authentication is successful
+        window.location.href = '../pages/admin.html'; // Redirect to the admin page if authentication is successful
     } else {
         alert('Invalid email or password');
     }

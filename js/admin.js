@@ -48,6 +48,7 @@ function displayData(data) {
 async function addData(event) {
     event.preventDefault();
     const form = event.target;
+    const ID = form.querySelector('#ID').value;
     const image = form.querySelector('#image').value;
     const badge = form.querySelector('#badge').value;
     const title = form.querySelector('#title').value;
@@ -56,6 +57,7 @@ async function addData(event) {
     const category = form.querySelector('#category').value;
 
     const requestData = {
+        "ID" : ID,
         "Image": image,
         "product-badge": badge,
         "Title": title,

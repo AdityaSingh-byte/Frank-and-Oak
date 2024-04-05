@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/admin.css" />
+    <link rel="stylesheet" href="../css/admin.css" />
     <title>Fank And Oak</title>
     <link
       rel="icon"
@@ -12,7 +12,7 @@
       sizes="32x32"
       href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAANlBMVEUAAAAAAAAAAAAAAABHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC6yzCRAAAAEnRSTlPp9v8sAPI6GAm3YXjZjU/QxKksh/VgAAAAtUlEQVR4AX3RRQLDMAxEUSsaM9//sm1YSuFvAi9gMIbuFgaTyNhF5ODl9ROD+YOI/zD9RIb6rkLyAPIPNCuifMeCNaavGLHl6BtW7HH5gg1nuTyRPO5cqlVixxq31I6nJGYAbqxndvonslgBchqHWljyCpveryixry/KvEAHTIXtxglgKMwXmgAgKkwXMt5VhfxGsaoszWDFy/SI2o7EOApFbZ+hZQbg0ijWGSYyVFxHj3l//gWDPAoyA1tlWQAAAABJRU5ErkJggg=="
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
 
     <!-- Font Awosonme Link -->
     <link
@@ -75,13 +75,13 @@
         <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
         <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
       </div>
-      <img src="images/logo.png" alt="" id="logoImg" />
+      <img src="../images/logo.png" alt="" id="logoImg" />
       <div class="menu-item">
         <ul>
-          <li><a href="#" id="women">Women</a></li>
-          <li><a href="#" id="men">Men</a></li>
+          <li><a href="./women.html" id="women">Women</a></li>
+          <li><a href="./Men.html" id="men">Men</a></li>
           <li><a href="#" class="sale" id="sales">Sale</a></li>
-          <li><a href="#" id="ourStory">Our Story</a></li>
+          <li><a href="../index.html" id="ourStory">Our Story</a></li>
         </ul>
       </div>
       <div class="menu-icon">
@@ -122,6 +122,8 @@
       <div class="forms">
         <form id="addForm">
           <h2>Add New Data</h2>
+          <label for="image">ID</label>
+          <input type="text" id="ID" name="ID" required />
           <label for="image">Image URL:</label>
           <input type="text" id="image" name="image" required />
           <label for="badge">Badge:</label>
@@ -165,5 +167,5 @@
       </div>
     </div>
   </body>
-  <script src="./js/admin.js"></script>
+  <script src="../js/admin.js"></script>
 </html>
