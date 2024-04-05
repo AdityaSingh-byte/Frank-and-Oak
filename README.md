@@ -14,46 +14,9 @@ Backend: [https://deployed-site.whatever](https://frank-and-oak.onrender.com/)
 Database: https://frank-and-oak.onrender.com/Data
 
 ## Directory Structure
-Frank-And-Oak/
-├─ Css/
-  Mens.css
-  cart.css
-  footer.css
-  style.css
-  women.css
-  
-├─ footer_images/
-    images
-    
-├─ images/
-    logo.png.
-    
-├─ js/
-   Men.js
-   cart.js
-   footer.js
-   index.js
-   women.js
-   
-├─ json/
-  data.json
-├─.gitignore
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/b84f27be-3770-4c32-858f-e2018af1ed97)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/2c86eed2-7d43-45d3-817f-0255e43148be)
 
-├─Men.html
-
-├─cart.html
-
-├─footer.html
-
-├─index.html
-
-├─package-lock.json
-
-├─package.json
-
-├─server.js
-
-├─women.html
 
 ## Video Walkthrough of the project
 https://youtu.be/tJY7Y4btEe8
@@ -66,7 +29,11 @@ Key features of our project
 - sorting function on the price range such as 0-100,100-250, etc
 - sorting on the size such as XL, XS, M & L.
 - Cart functions such as increasing the quantity and vice versa & removing the items from the cart
-- responsiveness 
+- responsiveness
+- Admin Panel
+- Authentication
+- CRUD operations on the JSON server
+  
 
 
 
@@ -87,6 +54,8 @@ index.html (open live server).
 ![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/2752cc27-4c11-4a4a-9c5e-df2ce6c31081)
 ![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/97af7be7-3dec-4492-9f0c-85c6501c4f14)
 ![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/59299154-4505-45e2-9c92-46f9a382fe79)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/eeb34486-2ca1-4c4f-b60d-6f48d457be6a)
+![image](https://github.com/AdityaSingh-byte/Frank-and-Oak/assets/157282077/defc539a-aec5-4c9c-b2c5-e96577b942b0)
 
 
 ## APIs Used
@@ -96,11 +65,11 @@ Render was used for deploying the API which was created using Json-server.
 Render was used for deploying the API which was created using Json-server.
 GET https://frank-and-oak.onrender.com/Data
 GET    /Data
-GET    /Data/:ID
+GET    /Data/:id
 POST   /Data
-PUT    /Data/:ID
-PATCH  /Data/:ID
-DELETE /Data/:ID
+PUT    /Data/:id
+PATCH  /Data/:id
+DELETE /Data/:id
 
 
 ## Technology Stack
