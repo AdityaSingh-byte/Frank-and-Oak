@@ -88,6 +88,14 @@ body {
   table {
     width: 100%;
     border-collapse: collapse;
+    >tr{
+      >td:nth-of-type(4){
+        width: 200px;
+      }
+      >td:nth-of-type(3){
+        width: 200px;
+      }
+    }
   }
 
   th,
@@ -113,6 +121,38 @@ body {
     justify-content: space-around;
     gap: 20px;
   }
-  #addForm{
 
-  }
+  /* CSS to make the table smaller */
+#dataContainer table {
+  font-size: smaller; /* Decrease font size for the entire table */
+  border-collapse: collapse; /* Collapse table borders to reduce space */
+}
+
+#dataContainer table th,
+#dataContainer table td {
+  padding: 8px; /* Adjust padding for table cells */
+  border: 1px solid black; /* Add borders to table cells */
+}
+
+#dataContainer table th {
+  background-color: #f2f2f2; /* Background color for table headers */
+}
+
+#dataContainer table img {
+  max-width: 100px; /* Set maximum width for images within table cells */
+}
+.editbtn{
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.deletebtn{
+  background-color: red ;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
